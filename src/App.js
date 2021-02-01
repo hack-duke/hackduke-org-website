@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import About from "./pages/About";
+import Humans from "./pages/Humans";
+import Events from "./pages/Events";
+import Recruitment from "./pages/Recruitment";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      //TODO: create navigation bar
+      <Router>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">About</Link>
+              </li>
+              <li>
+                <Link to="/humans">Humans</Link>
+              </li>
+              <li>
+                <Link to="/events">Events</Link>
+              </li>
+              <li>
+                <Link to="/join">Join Us</Link>
+              </li>
+            </ul>
+          </nav>
+
+          <Switch>
+            <Route exact path="/humans">
+              <Humans />
+            </Route>
+            <Route exact path="/events">
+              <Events />
+            </Route>
+            <Route path="/join">
+              <Recruitment />
+            </Route>
+            <Route path="/">
+              <About />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
   );
 }
-
-export default App;
