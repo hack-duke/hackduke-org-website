@@ -1,33 +1,25 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import About from "./pages/About";
 import Humans from "./pages/Humans";
 import Events from "./pages/Events";
 import Recruitment from "./pages/Recruitment";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 export default function App() {
   return (
       //TODO: create navigation bar
       <Router>
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">About</Link>
-              </li>
-              <li>
-                <Link to="/humans">Humans</Link>
-              </li>
-              <li>
-                <Link to="/events">Events</Link>
-              </li>
-              <li>
-                <Link to="/join">Join Us</Link>
-              </li>
-            </ul>
-          </nav>
+        <div className={"main-app"}>
+          <Navbar/>
 
+          {/*switching between routes*/}
           <Switch>
+            <Route exact path="/about">
+              <About />
+            </Route>
             <Route exact path="/humans">
               <Humans />
             </Route>
@@ -38,9 +30,10 @@ export default function App() {
               <Recruitment />
             </Route>
             <Route path="/">
-              <About />
+              <Home/>
             </Route>
           </Switch>
+
         </div>
       </Router>
   );

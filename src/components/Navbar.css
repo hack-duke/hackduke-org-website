@@ -1,0 +1,42 @@
+.navbar {
+    font-family: Source Sans Pro;
+    z-index: 1;
+}
+
+.navbar-header {
+    margin: 30px 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.hd-symbol {
+    width: 35px;
+    height: 35px;
+    margin: 10px 30px;
+}
+
+.navbar-list {
+    margin-right: 30px;
+}
+
+.navbar-header li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar-header .navbar-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-header .navbar-list .join-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
