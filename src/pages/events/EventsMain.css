@@ -1,0 +1,19 @@
+.events-main {
+    background-image: url("/src/graphics/events-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-color: #35C69B;
+    background-size: 500px;
+    background-position-x: 100px;
+    background-position-y: 350px;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.events-main .events-text {
+    color: black;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 30%;
+}

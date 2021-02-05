@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import RecruitmentMain from "./recruitment/RecruitmentMain";
 
 function Recruitment() {
-    return <h1>Recruitment</h1>;
+    return (
+        <div>
+            <Navbar color={"#0042C6"}/>
+            <RecruitmentMain/>
+        </div>
+    );
 }
 
 export default Recruitment;

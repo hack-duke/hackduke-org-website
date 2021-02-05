@@ -5,36 +5,33 @@ import Humans from "./pages/Humans";
 import Events from "./pages/Events";
 import Recruitment from "./pages/Recruitment";
 import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
 import "./App.css";
 
 export default function App() {
   return (
       //TODO: create navigation bar
       <Router>
-        <div className={"main-app"}>
-          <Navbar/>
+          <div className={"main-app"}>
+            {/*switching between routes*/}
+            <Switch>
+              <Route exact path="/about">
+                <About />
+              </Route>
+              <Route exact path="/humans">
+                <Humans />
+              </Route>
+              <Route exact path="/events">
+                <Events />
+              </Route>
+              <Route path="/join">
+                <Recruitment />
+              </Route>
+              <Route path="/">
+                <Home/>
+              </Route>
+            </Switch>
 
-          {/*switching between routes*/}
-          <Switch>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/humans">
-              <Humans />
-            </Route>
-            <Route exact path="/events">
-              <Events />
-            </Route>
-            <Route path="/join">
-              <Recruitment />
-            </Route>
-            <Route path="/">
-              <Home/>
-            </Route>
-          </Switch>
-
-        </div>
+          </div>
       </Router>
   );
 }

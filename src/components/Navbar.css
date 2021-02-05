@@ -1,14 +1,12 @@
 .navbar {
     font-family: Source Sans Pro;
-    z-index: 1;
+    padding: 30px 0;
 }
 
 .navbar-header {
-    margin: 30px 0;
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
 }
 
 .hd-symbol {
@@ -28,7 +26,6 @@
 }
 
 .navbar-header .navbar-list li a {
-    text-decoration: none;
     color: white;
 }
 
@@ -39,4 +36,22 @@
     background-color: #F7AF1C;
     padding: 6px 12px;
     border-radius: 3px;
+}
+
+.navbar-header .link-active-about {
+    text-decoration: underline;
+    text-decoration-color: #F7AF1C;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-header .link-active-humans {
+    text-decoration: underline;
+    text-decoration-color: #999999;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-header .link-active-events {
+    text-decoration: underline;
+    text-decoration-color: #44ecbc;
+    text-decoration-thickness: 2px;
 }

@@ -1,13 +1,12 @@
 import React from "react";
-import "./Home.css";
 import HomeMain from "./home/HomeMain";
-import HomeContentTemplate from "./home/HomeContentTemplate";
+import Navbar from "../components/Navbar";
 
 function Home() {
     return (
         <div>
+            <Navbar color={"#0042C6"}/>
             <HomeMain/>
-            <HomeContentTemplate />
         </div>
     );
 }
