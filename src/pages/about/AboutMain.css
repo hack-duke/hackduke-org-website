@@ -1,17 +1,18 @@
 .about-main {
     background-image: url("/src/graphics/about-bg.svg");
     background-repeat: no-repeat, repeat;
-    background-color: #E55511;
     background-size: 1500px;
     width: 100%;
     height: 700px;
     text-align: center;
+    max-width: 1500px;
+    margin: 0px auto;
 }
 
 .about-main .about-text {
     color: white;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 100px;
     width: 40%;
 }

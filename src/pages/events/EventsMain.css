@@ -1,19 +1,32 @@
 .events-main {
     background-image: url("/src/graphics/events-bg.svg");
     background-repeat: no-repeat, repeat;
-    background-color: #35C69B;
     background-size: 500px;
     background-position-x: 100px;
     background-position-y: 350px;
     width: 100%;
     height: 700px;
     text-align: center;
+    max-width: 1500px;
+    margin: 0px auto;
 }
 
 .events-main .events-text {
     color: black;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 100px;
-    width: 30%;
+    width: 450px;
+    float: left;
+}
+
+.events-main .stats-box {
+    padding-top: 70px;
+    float: right;
+    padding-right: 100px;
+}
+
+.codeStats, .ideateStats {
+    width: 500px;
+    padding-bottom: 70px;
 }

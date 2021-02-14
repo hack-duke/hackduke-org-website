@@ -1,0 +1,35 @@
+.email-input {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding-right: 10px;
+    background-color: transparent;
+    width: 250px;
+    height: 46px;
+    margin: 35px auto;
+}
+input[type="email"] {
+    border: 0px;
+    outline: none;
+    padding: 12px 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-family: Cabin;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: #FEFEFE;
+    opacity: 0.5;
+}
+
+.email-input i {
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    z-index: 1;
+}
+
+.email-input i:hover {
+    cursor: pointer;
+}

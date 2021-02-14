@@ -4,7 +4,7 @@ import RecruitmentMain from "./recruitment/RecruitmentMain";
 
 function Recruitment() {
     return (
-        <div>
+        <div style={{backgroundColor: "#0042C6"}}>
             <Navbar color={"#0042C6"}/>
             <RecruitmentMain/>
         </div>

@@ -4,7 +4,7 @@ import HumansMain from "./humans/HumansMain";
 
 function Humans() {
     return (
-        <div>
+        <div style={{backgroundColor: "#242424"}}>
             <Navbar color={"#242424"}/>
             <HumansMain/>
         </div>

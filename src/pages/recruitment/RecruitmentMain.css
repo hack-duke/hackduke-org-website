@@ -1,13 +1,13 @@
 .recruitment-main {
     background-image: url("/src/graphics/home-bg.svg");
     background-repeat: no-repeat, repeat;
-    background-color: #0042C6;
     background-size: 1500px;
     width: 100%;
     height: 700px;
     text-align: center;
+    max-width: 1500px;
+    margin: 0px auto;
 }
-
 
 .recruitment-main .recruitment-text {
     color: white;
@@ -20,3 +20,4 @@
     width: 50%;
     margin: 0 auto;
 }
+
