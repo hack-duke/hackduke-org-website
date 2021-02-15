@@ -1,9 +1,13 @@
-.recruitment-main {
+.recruitment-bg {
     background-image: url("/src/graphics/home-bg.svg");
     background-repeat: no-repeat, repeat;
-    background-size: 1500px;
+    background-size: 1750px;
+    background-position: center bottom;
+}
+
+.recruitment-main {
     width: 100%;
-    height: 700px;
+    height: 760px;
     text-align: center;
     max-width: 1500px;
     margin: 0px auto;

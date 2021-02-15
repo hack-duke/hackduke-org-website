@@ -4,8 +4,10 @@ import "./HomeMain.css";
 
 function HomeMain() {
     return (
-        <div className={"home-main"}>
-            <img className={"hd-logo"} src={hdLogo} alt={"hd-logo"}/>
+        <div className={"home-bg"}>
+            <div className={"home-main"}>
+                <img className={"hd-logo"} src={hdLogo} alt={"hd-logo"}/>
+            </div>
         </div>
     )
 }
