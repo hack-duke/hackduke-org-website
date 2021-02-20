@@ -1,6 +1,6 @@
 .recruitment-bg {
     background-image: url("/src/graphics/home-bg.svg");
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     background-size: 1750px;
     background-position: center bottom;
 }

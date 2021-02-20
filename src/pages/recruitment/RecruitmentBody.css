@@ -1,0 +1,17 @@
+.recruit-body {
+    background-image: url("/src/graphics/recruit-body-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center top;
+    background-size: 1300px;
+    width: 100%;
+    text-align: center;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.recruit-body .recruit-text-body {
+    text-align: left;
+    max-width: 800px;
+    margin: 100px auto 140px;
+}
