@@ -3,6 +3,7 @@ import HomeMain from "./home/HomeMain";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import JoinTheTeam from "../components/JoinTheTeam";
+import HomeMultidisciplinary from "./home/HomeMultidisciplinary";
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
                 <Navbar color={"#0042C6"}/>
                 <HomeMain/>
             </div>
+            <HomeMultidisciplinary/>
             <JoinTheTeam/>
             <Footer/>
         </div>
