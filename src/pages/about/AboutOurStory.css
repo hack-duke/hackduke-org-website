@@ -1,0 +1,12 @@
+.aboutOurStory mainBox {
+    /* Story (beginning) */
+    position: absolute;
+    width: 1024px;
+    height: 3695px;
+    left: 0px;
+    top: 720px;
+
+    /* White */
+
+    background: #FEFEFE;
+}
