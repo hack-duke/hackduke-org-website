@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomeMain.css";
+import "./HomeMultidisciplinary.css";
 import {Link} from "react-router-dom";
 
 function HomeMultidisciplinary() {
