@@ -23,7 +23,7 @@ function Footer() {
                     <div>
                         <h3>About</h3>
                         <Link to="/about"><p>Mission</p></Link>
-                        <Link to="/about#ourstory"><p>Our Story</p></Link>
+                        <Link to="/about#our-story"><p>Our Story</p></Link>
                     </div>
                     <div>
                         <h3>Humans</h3>
@@ -37,7 +37,7 @@ function Footer() {
                         <h3>Events</h3>
                         <Link to="/events#codeforgood"><p>Code For Good</p></Link>
                         <Link to="/events#ideate"><p>Ideate</p></Link>
-                        <Link to="/events#sponsor us"><p>Sponsor Us</p></Link>
+                        <Link to="/events#sponsor-us"><p>Sponsor Us</p></Link>
                     </div>
                     <div>
                         <h3>Join</h3>

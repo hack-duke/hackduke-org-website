@@ -1,5 +1,4 @@
 .email-input {
-    border: 2px solid white;
     border-radius: 4px;
     padding-right: 10px;
     background-color: transparent;
@@ -7,27 +6,55 @@
     height: 46px;
     margin: 35px auto;
 }
-input[type="email"] {
+
+.email-input.input-white {
+    border: 2px solid white;
+}
+
+.email-input.input-yellow {
+    border: 2px solid #F7AF1C;
+}
+
+.email-input input[type="email"] {
     border: 0px;
     outline: none;
     padding: 12px 15px;
     background-color: transparent;
-    color: white;
     font-weight: 700;
     font-family: Cabin;
     font-size: 18px;
 }
 
-::placeholder {
+.email-input.input-white input[type="email"] {
+    color: white;
+}
+
+.email-input.input-yellow input[type="email"] {
+    color: #F7AF1C;
+}
+
+.email-input.input-white input[type="email"]::placeholder {
     color: #FEFEFE;
+    opacity: 0.5;
+}
+
+.email-input.input-yellow input[type="email"]::placeholder {
+    color: #F7AF1C;
     opacity: 0.5;
 }
 
 .email-input i {
     font-size: 16px;
     padding: 5px;
-    color: white;
     z-index: 1;
+}
+
+.email-input.input-white i {
+    color: white;
+}
+
+.email-input.input-yellow i {
+    color: #F7AF1C;
 }
 
 .email-input i:hover {

@@ -1,0 +1,19 @@
+.sponsor-bg {
+    background-image: url("/src/graphics/joinus-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center bottom;
+    background-size: 1600px;
+}
+
+.sponsor-us {
+    max-width: 1500px;
+    height: 600px;
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+}
+
+.sponsor-us-text {
+    margin: auto;
+    max-width: 800px;
+}
