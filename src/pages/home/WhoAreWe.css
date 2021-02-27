@@ -1,0 +1,60 @@
+.ideate {
+    max-width: 1500px;
+    height: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.ideate .ideate-text {
+    max-width: 500px;
+    margin: auto 100px;
+    float: left;
+}
+
+.ideate .speakers-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.ideate .ideate-bg {
+    z-index: 999;
+    position: absolute;
+    width: 500px;
+    right: -28px;
+    top: -242px;
+}
+
+.ideate .who-are-we-photo {
+    width: 328px;
+    height: 219px;
+    left: 108px;
+    float: right;
+    margin: auto;
+    position: relative;
+}
+
+.meet-the-peeps-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    padding: 6px 12px;
+    font-size: 16px;
+    background: #35C69B;
+    border-radius: 3px;
+
+}
+
+
+.ideate .who-are-we-header {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #0042C6;
+}

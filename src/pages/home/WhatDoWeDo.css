@@ -1,0 +1,36 @@
+.ideate {
+    max-width: 1500px;
+    height: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.ideate .ideate-text {
+    max-width: 500px;
+    margin: auto 100px;
+    float: left;
+}
+
+.ideate .speakers-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.ideate .ideate-bg {
+    z-index: 999;
+    position: absolute;
+    width: 500px;
+    right: -28px;
+    top: -242px;
+}
+
+.ideate .ideate-photos {
+    float: right;
+    margin: auto;
+    position: relative;
+}
