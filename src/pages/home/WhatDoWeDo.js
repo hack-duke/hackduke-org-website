@@ -15,7 +15,7 @@ function WhatDoWeDo() {
                 <p>We organize Code for Good, the nation’s premier social good hackathon, in the fall and Ideate, our designathon, in the spring. Our teams work together to invite speakers, design resources, build platforms, and more to ensure the success of these events.</p>
                 <Link to="/events">
                     <span className={"see-our-work-button"} style={{color: "white"}}>
-                    See our work
+                    See our work&nbsp;
                         <i className="fas fa-arrow-right"/>
                     </span>
                 </Link>

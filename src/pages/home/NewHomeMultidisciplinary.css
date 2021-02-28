@@ -46,3 +46,30 @@
     color: white;
     text-decoration: none;
 }
+
+.ideate .innovation {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px 16px;
+
+    position: static;
+    width: 226px;
+    height: 292px;
+    left: 274px;
+    top: 0px;
+
+    /* Yellow */
+
+    border: 2px solid #F7AF1C;
+    border-radius: 16px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 48px;
+}

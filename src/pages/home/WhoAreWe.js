@@ -16,7 +16,7 @@ function WhoAreWe() {
                 <p>We are a community of Duke students of various majors from CS to Economics to Psychology. We are united by our love of building and using tech for social good. Our organization is split into 5 teams: Tech, Design, Logistics, Outreach, and Sponsorship.</p>
                 <Link to="/about">
                     <span className={"meet-the-peeps-button"} style={{color: "white"}}>
-                        Meet the peeps
+                        Meet the peeps&nbsp;
                         <i className="fas fa-arrow-right"/>
                     </span>
                 </Link>
@@ -24,7 +24,9 @@ function WhoAreWe() {
             <div className={"who-are-we-photo"}>
                 <img src={HomeWhoAreWe}/>
             </div>
-            <img className={"cross"} src={Cross}/>
+            <div className={"cross"}>
+                <img src={Cross}/>
+            </div>
         </div>
     )
 }
