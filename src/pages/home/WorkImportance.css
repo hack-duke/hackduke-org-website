@@ -29,8 +29,32 @@
     top: -242px;
 }
 
-.ideate .ideate-photos {
+.ideate .who-are-we-photo {
+    width: 328px;
+    height: 219px;
+    left: 108px;
     float: right;
     margin: auto;
     position: relative;
+}
+
+.join-us-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    padding: 6px 12px;
+    font-size: 16px;
+    background: #e55511;
+    border-radius: 3px;
+
+}
+
+
+.ideate .who-are-we-header {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #0042C6;
 }
