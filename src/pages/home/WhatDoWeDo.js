@@ -3,7 +3,8 @@ import React from 'react';
 import "./WhatDoWeDo.css";
 
 import {Link} from "react-router-dom";
-import HomeWhoAreWe from "../../graphics/HD_2016_8 1.png";
+import WhatDoWeDoImageTop from "../../graphics/HD_2016_5 1.png";
+import WhatDoWeDoImageBottom from "../../graphics/WhatWeDoPic2.png";
 
 
 function WhatDoWeDo() {
@@ -20,7 +21,8 @@ function WhatDoWeDo() {
                 </Link>
             </div>
             <div className={"who-are-we-photo"}>
-                <img src={HomeWhoAreWe}/>
+                <img src={WhatDoWeDoImageTop}/>
+                <img src={WhatDoWeDoImageBottom}/>
             </div>
         </div>
     )

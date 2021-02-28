@@ -3,8 +3,9 @@ import React from 'react';
 import "./WorkImportance.css";
 
 import {Link} from "react-router-dom";
-import HomeWhoAreWe from "../../graphics/HD_2016_8 1.png";
-
+import WhatDoWeDoImageTop from "../../graphics/HD_2016_10 1.png";
+import WhatDoWeDoImageMiddle from "../../graphics/HD_2016_12 1.png";
+import WhatDoWeDoImageBottom from "../../graphics/HD_2016_6 1.png";
 
 function WorkImportance() {
     return (
@@ -20,7 +21,9 @@ function WorkImportance() {
                 </Link>
             </div>
             <div className={"who-are-we-photo"}>
-                <img src={HomeWhoAreWe}/>
+                <img src={WhatDoWeDoImageTop}/>
+                <img src={WhatDoWeDoImageMiddle}/>
+                <img src={WhatDoWeDoImageBottom}/>
             </div>
         </div>
     )
