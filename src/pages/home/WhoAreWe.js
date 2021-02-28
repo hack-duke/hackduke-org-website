@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import "./WhoAreWe.css";
 
 import HomeWhoAreWe from "../../graphics/HD_2016_8 1.png";
+import Cross from "../../graphics/X.svg";
 
 
 function WhoAreWe() {
@@ -23,6 +24,7 @@ function WhoAreWe() {
             <div className={"who-are-we-photo"}>
                 <img src={HomeWhoAreWe}/>
             </div>
+            <img className={"cross"} src={Cross}/>
         </div>
     )
 }

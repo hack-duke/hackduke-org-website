@@ -58,3 +58,11 @@
     line-height: 40px;
     color: #0042C6;
 }
+
+.ideate .cross {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 300px;
+
+}
