@@ -1,0 +1,30 @@
+.teams {
+    max-width: 1500px;
+    margin: 0px auto;
+    padding: 50px 100px;
+    font-family: "Source Sans Pro";
+}
+
+ul.teams-navbar  {
+    padding: 0;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.teams-navbar li {
+    display: inline;
+    font-size: 18px;
+    color: #242424;
+}
+
+.teams-navbar li:hover {
+    cursor: pointer;
+}
+
+.teams-navbar .team-active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
