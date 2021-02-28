@@ -1,16 +1,19 @@
 import React from "react";
 import "./NewHomeMultidisciplinary.css";
 import {Link} from "react-router-dom";
-import HomeWhoAreWe from "../../graphics/HD_2016_8 1.png";
 import community from "../../graphics/community.svg";
 import innovation from "../../graphics/innovatioon.svg";
 import socialgood from "../../graphics/fun.svg";
+import communityillustration from "../../graphics/community-illustration.png";
+import innovationillustration from "../../graphics/innovation-illustration.png";
+import socialgoodillustration from "../../graphics/socialgood-illustration.png";
+
 
 
 function HomeMultidisciplinary() {
     return (
     <div id="home-multi" className={"home-multi"}>
-        <div className={"tech-org-text"}>
+        <div className={"tech-org-text"} style={{marginTop: 110}}>
             <p>We are a tech organization that brings together a multidisciplinary community at Duke to further social good. Sound interesting?</p>
             <Link to="/about">
                     <span className={"read-our-story-button"} style={{color: "white"}}>
@@ -22,23 +25,26 @@ function HomeMultidisciplinary() {
         <div className={"multi-boxes"}>
             <div className={"value-box"}>
                 <img src={"community"}/>
+                <img className={"illustration"} src={communityillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Community</h2>
-                    <p>We believe in fostering an internal, university, and local tech community that celebrates collaboration, diversity, and social impact.</p>
+                    <p className={"values-paragraph"}>We believe in fostering an internal, university, and local tech community that celebrates collaboration, diversity, and social impact.</p>
                 </div>
             </div>
             <div className={"value-box"}>
                 <img src={"innovation"}/>
+                <img className={"illustration"} src={innovationillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Innovation</h2>
-                    <p>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build!</p>
+                    <p className={"values-paragraph"}>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build!</p>
                 </div>
             </div>
             <div className={"value-box"}>
                 <img src={"socialgood"}/>
+                <img className={"illustration"} src={socialgoodillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Social Good</h2>
-                    <p>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build! </p>
+                    <p className={"values-paragraph"}>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build! </p>
                 </div>
             </div>
         </div>

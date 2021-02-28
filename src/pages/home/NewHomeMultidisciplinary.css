@@ -7,7 +7,7 @@
 
 .home-multi .tech-org-text {
     max-width: 500px;
-    margin: auto 100px;
+    margin: auto 10px;
     float: left;
 }
 
@@ -28,7 +28,6 @@
 }
 
 .home-multi .values-header {
-    position: static;
 
     /* Basic/H2 */
 
@@ -77,15 +76,17 @@
 .home-multi .multi-boxes {
     /* Auto Layout */
 
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
 
     width: 774px;
     height: 292px;
     left: 120px;
-    top: 263px;
+    top: 1250px;
+
+    float: left;
 }
 
 .home-multi .value-box {
@@ -117,4 +118,39 @@
     order: 0;
     flex-grow: 0;
     margin: 0px 48px;
+}
+
+.home-multi .illustration {
+    /* illustration */
+
+    position: static;
+    width: 100px;
+    height: 100px;
+    left: 63px;
+    top: 20px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    flex-grow: 0;
+    margin: 8px 8px;
+}
+
+.home-multi .values-paragraph {
+    position: static;
+    width: 210px;
+    height: 120px;
+    left: 8px;
+    top: 156px;
+
+    /* Basic/Body */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
 }
