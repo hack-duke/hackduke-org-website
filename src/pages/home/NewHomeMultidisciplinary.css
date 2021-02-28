@@ -1,41 +1,17 @@
-.code-for-good {
+.home-multi {
     max-width: 1500px;
     height: 700px;
     display: flex;
     margin: 0 auto;
 }
 
-.code-for-good .hd-text {
+.home-multi .tech-org-text {
     max-width: 500px;
     margin: auto 100px;
     float: left;
 }
 
-.code-for-good .speakers-button {
-    font-weight: 700;
-    height: 32px;
-    width: 276px;
-    background-color: #E55511;
-    padding: 6px 12px;
-    border-radius: 3px;
-    font-size: 16px;
-}
-
-.code-for-good .hd-bg {
-    z-index: 999;
-    position: absolute;
-    width: 380px;
-    right: 44px;
-    top: -107px;
-}
-
-.code-for-good .hd-photos {
-    float: right;
-    margin: auto;
-    position: relative;
-}
-
-.read-our-story-button {
+.home-multi .read-our-story-button {
     font-weight: 700;
     height: 32px;
     width: 276px;
@@ -47,7 +23,76 @@
     text-decoration: none;
 }
 
-.ideate .innovation {
+.home-multi .overlay-text {
+    top: 10px;
+}
+
+.home-multi .values-header {
+    position: static;
+
+    /* Basic/H2 */
+
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #242424;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.home-multi .values-header .community{
+    width: 123px;
+    height: 32px;
+    left: 51.5px;
+    top: 116px;
+}
+
+.home-multi .values-header .socialgood{
+    width: 124px;
+    height: 32px;
+    left: 51px;
+    top: 116px;
+}
+
+.home-multi .values-header .innovation{
+    width: 111px;
+    height: 32px;
+    left: 57.5px;
+    top: 116px;
+}
+
+.home-multi .multi-boxes {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 774px;
+    height: 292px;
+    left: 120px;
+    top: 263px;
+}
+
+.home-multi .value-box {
+    /* community */
+
+
+    /* Auto Layout */
 
     display: flex;
     flex-direction: column;
@@ -58,18 +103,18 @@
     position: static;
     width: 226px;
     height: 292px;
-    left: 274px;
+    left: 0px;
     top: 0px;
 
-    /* Yellow */
+    /* Green */
 
-    border: 2px solid #F7AF1C;
+    border: 2px solid #35C69B;
     border-radius: 16px;
 
     /* Inside Auto Layout */
 
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
     margin: 0px 48px;
 }

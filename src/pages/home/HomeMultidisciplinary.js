@@ -9,8 +9,8 @@ import socialgood from "../../graphics/fun.svg";
 
 function HomeMultidisciplinary() {
     return (
-    <div id="ideate" className={"ideate"}>
-        <div className={"ideate-text"}>
+    <div id="home-multi" className={"home-multi"}>
+        <div className={"tech-org-text"}>
             <p>We are a tech organization that brings together a multidisciplinary community at Duke to further social good. Sound interesting?</p>
             <Link to="/about">
                     <span className={"read-our-story-button"} style={{color: "white"}}>
@@ -19,8 +19,28 @@ function HomeMultidisciplinary() {
                     </span>
             </Link>
         </div>
-        <div className={"innovation"}>
-            <img src={"innovation"}/>
+        <div className={"multi-boxes"}>
+            <div className={"value-box"}>
+                <img src={"community"}/>
+                <div className={"overlay-text"}>
+                    <h2 className={"values-header"}>Community</h2>
+                    <p>We believe in fostering an internal, university, and local tech community that celebrates collaboration, diversity, and social impact.</p>
+                </div>
+            </div>
+            <div className={"value-box"}>
+                <img src={"innovation"}/>
+                <div className={"overlay-text"}>
+                    <h2 className={"values-header"}>Innovation</h2>
+                    <p>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build!</p>
+                </div>
+            </div>
+            <div className={"value-box"}>
+                <img src={"socialgood"}/>
+                <div className={"overlay-text"}>
+                    <h2 className={"values-header"}>Social Good</h2>
+                    <p>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build! </p>
+                </div>
+            </div>
         </div>
 
         {/*

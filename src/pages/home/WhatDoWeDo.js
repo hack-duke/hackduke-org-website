@@ -3,8 +3,8 @@ import React from 'react';
 import "./WhatDoWeDo.css";
 
 import {Link} from "react-router-dom";
-import WhatDoWeDoImageTop from "../../graphics/HD_2016_5 1.png";
-import WhatDoWeDoImageBottom from "../../graphics/WhatWeDoPic2.png";
+import WhatDoWeDoImageBottom from "../../graphics/HD_2016_5 1.png";
+import WhatDoWeDoImageTop from "../../graphics/WhatWeDoPic2.png";
 
 
 function WhatDoWeDo() {
@@ -21,8 +21,8 @@ function WhatDoWeDo() {
                 </Link>
             </div>
             <div className={"who-are-we-photo"}>
-                <img src={WhatDoWeDoImageTop}/>
-                <img src={WhatDoWeDoImageBottom}/>
+                <img className={"who-are-we-image-top"} src={WhatDoWeDoImageTop}/>
+                <img className={"who-are-we-image-bottom"} src={WhatDoWeDoImageBottom}/>
             </div>
         </div>
     )
