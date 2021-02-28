@@ -46,7 +46,6 @@
     font-size: 16px;
     background: #e55511;
     border-radius: 3px;
-
 }
 
 
@@ -57,4 +56,31 @@
     font-size: 36px;
     line-height: 40px;
     color: #0042C6;
+}
+
+.ideate .work-importance-image-top {
+    position: absolute;
+    width: 175px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+}
+
+.ideate .work-importance-image-middle {
+    position: absolute;
+    width: 279px;
+    height: 185px;
+    left: 50px;
+    top: 130px;
+    border-radius: 8px;
+}
+
+.ideate .work-importance-image-bottom {
+    position: absolute;
+    width: 187px;
+    height: 125px;
+    left: 180px;
+    top: 325px;
+    border-radius: 8px;
 }
