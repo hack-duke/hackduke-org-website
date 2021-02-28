@@ -1,0 +1,91 @@
+.work-importance {
+    max-width: 1500px;
+    height: 800px;
+    display: flex;
+    margin: 0 auto 200px;
+    background-image: url("/src/graphics/important-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 120px;
+    background-position-x: 1250px;
+    background-position-y: 200px;
+}
+
+.work-importance .work-importance-text {
+    max-width: 500px;
+    margin: auto 100px;
+    float: left;
+}
+
+.work-importance .speakers-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.work-importance .work-importance-bg {
+    z-index: 999;
+    position: absolute;
+    width: 500px;
+    right: -28px;
+    top: -242px;
+}
+
+.work-importance .work-importance-photo {
+    width: 328px;
+    height: 219px;
+    left: 108px;
+    float: right;
+    margin: auto;
+    position: relative;
+}
+
+.join-us-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    padding: 6px 12px;
+    font-size: 16px;
+    background: #e55511;
+    border-radius: 3px;
+}
+
+
+.work-importance .work-importance-header {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #0042C6;
+}
+
+.work-importance .work-importance-image-top {
+    position: absolute;
+    width: 175px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+}
+
+.work-importance .work-importance-image-middle {
+    position: absolute;
+    width: 279px;
+    height: 185px;
+    left: 50px;
+    top: 130px;
+    border-radius: 8px;
+}
+
+.work-importance .work-importance-image-bottom {
+    position: absolute;
+    width: 187px;
+    height: 125px;
+    left: 180px;
+    top: 325px;
+    border-radius: 8px;
+}

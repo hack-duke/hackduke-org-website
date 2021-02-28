@@ -1,0 +1,88 @@
+/* NOT USED
+ */
+
+
+.home-multidisciplinary {
+    /* About */
+    position: absolute;
+    width: 1024px;
+    height: 720px;
+    left: 0px;
+    top: 720px;
+    /* White */
+    background: #FEFEFE;
+}
+.read-our-story-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.multi-boxes {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 774px;
+    height: 292px;
+    left: 120px;
+    top: 363px;
+}
+
+.values-box {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px 16px;
+
+    position: static;
+    width: 226px;
+    height: 292px;
+    top: 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.values-box community{
+    left: 0px;
+    order: 0;
+    /* Green */
+
+    border: 2px solid #35C69B;
+    border-radius: 16px;
+}
+
+.values-box innovation{
+    left: 274px;
+    order: 1;
+    /* Yellow */
+
+    border: 2px solid #F7AF1C;
+    border-radius: 16px;
+}
+
+.values-box social-good{
+    left: 548px;
+    order: 2;
+    /* Red */
+
+    border: 2px solid #E55511;
+    border-radius: 16px;
+}

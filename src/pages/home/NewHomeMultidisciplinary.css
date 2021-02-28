@@ -1,0 +1,159 @@
+.home-multi {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-image: url("/src/graphics/multi-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 300px;
+    background-position-x: 900px;
+    background-position-y: 70px;
+}
+
+.home-multi .tech-org-text {
+    float: left;
+    padding: 100px;
+    max-width: 500px;
+}
+
+.home-multi .read-our-story-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.home-multi .overlay-text {
+    top: 10px;
+}
+
+.home-multi .values-header {
+
+    /* Basic/H2 */
+
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #242424;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.home-multi .values-header .community{
+    width: 123px;
+    height: 32px;
+    left: 51.5px;
+    top: 116px;
+}
+
+.home-multi .values-header .socialgood{
+    width: 124px;
+    height: 32px;
+    left: 51px;
+    top: 116px;
+}
+
+.home-multi .values-header .innovation{
+    width: 111px;
+    height: 32px;
+    left: 57.5px;
+    top: 116px;
+}
+
+.home-multi .multi-boxes {
+    /* Auto Layout */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    clear: both;
+    justify-content: center;
+
+}
+
+.home-multi .value-box {
+    /* community */
+
+
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px 16px;
+
+    width: 226px;
+    height: 292px;
+    left: 0px;
+    top: 0px;
+
+    /* Green */
+
+    border: 2px solid #35C69B;
+    border-radius: 16px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.home-multi .value-box#innovation-box {
+    border: 2px solid #F7AF1C;
+}
+
+.home-multi .value-box#socialgood-box {
+    border: 2px solid #E55511;
+}
+
+
+.home-multi .illustration {
+    /* illustration */
+
+    width: 100px;
+    height: 100px;
+    left: 63px;
+    top: 20px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    flex-grow: 0;
+    margin: 8px 8px;
+}
+
+.home-multi .values-paragraph {
+    width: 210px;
+    height: 120px;
+    left: 8px;
+    top: 156px;
+
+    /* Basic/Body */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+}
