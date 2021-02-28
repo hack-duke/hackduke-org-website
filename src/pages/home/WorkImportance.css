@@ -1,17 +1,22 @@
-.ideate {
+.work-importance {
     max-width: 1500px;
     height: 800px;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 200px;
+    background-image: url("/src/graphics/important-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 120px;
+    background-position-x: 1250px;
+    background-position-y: 200px;
 }
 
-.ideate .ideate-text {
+.work-importance .work-importance-text {
     max-width: 500px;
     margin: auto 100px;
     float: left;
 }
 
-.ideate .speakers-button {
+.work-importance .speakers-button {
     font-weight: 700;
     height: 32px;
     width: 276px;
@@ -21,7 +26,7 @@
     font-size: 16px;
 }
 
-.ideate .ideate-bg {
+.work-importance .work-importance-bg {
     z-index: 999;
     position: absolute;
     width: 500px;
@@ -29,7 +34,7 @@
     top: -242px;
 }
 
-.ideate .who-are-we-photo {
+.work-importance .work-importance-photo {
     width: 328px;
     height: 219px;
     left: 108px;
@@ -49,7 +54,7 @@
 }
 
 
-.ideate .who-are-we-header {
+.work-importance .work-importance-header {
     font-family: Cabin;
     font-style: normal;
     font-weight: bold;
@@ -58,7 +63,7 @@
     color: #0042C6;
 }
 
-.ideate .work-importance-image-top {
+.work-importance .work-importance-image-top {
     position: absolute;
     width: 175px;
     height: 120px;
@@ -67,7 +72,7 @@
     border-radius: 8px;
 }
 
-.ideate .work-importance-image-middle {
+.work-importance .work-importance-image-middle {
     position: absolute;
     width: 279px;
     height: 185px;
@@ -76,7 +81,7 @@
     border-radius: 8px;
 }
 
-.ideate .work-importance-image-bottom {
+.work-importance .work-importance-image-bottom {
     position: absolute;
     width: 187px;
     height: 125px;

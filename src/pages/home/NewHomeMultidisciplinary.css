@@ -1,14 +1,17 @@
 .home-multi {
     max-width: 1500px;
-    height: 700px;
-    display: flex;
     margin: 0 auto;
+    background-image: url("/src/graphics/multi-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 300px;
+    background-position-x: 900px;
+    background-position-y: 70px;
 }
 
 .home-multi .tech-org-text {
-    max-width: 500px;
-    margin: auto 10px;
     float: left;
+    padding: 100px;
+    max-width: 500px;
 }
 
 .home-multi .read-our-story-button {
@@ -75,18 +78,12 @@
 
 .home-multi .multi-boxes {
     /* Auto Layout */
-
-    position: absolute;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    clear: both;
+    justify-content: center;
 
-    width: 774px;
-    height: 292px;
-    left: 120px;
-    top: 1250px;
-
-    float: left;
 }
 
 .home-multi .value-box {
@@ -101,7 +98,6 @@
     align-items: center;
     padding: 8px 8px 16px;
 
-    position: static;
     width: 226px;
     height: 292px;
     left: 0px;
@@ -132,7 +128,6 @@
 .home-multi .illustration {
     /* illustration */
 
-    position: static;
     width: 100px;
     height: 100px;
     left: 63px;
@@ -146,7 +141,6 @@
 }
 
 .home-multi .values-paragraph {
-    position: static;
     width: 210px;
     height: 120px;
     left: 8px;

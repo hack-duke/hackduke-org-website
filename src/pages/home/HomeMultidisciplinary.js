@@ -1,9 +1,6 @@
 import React from "react";
 import "./NewHomeMultidisciplinary.css";
 import {Link} from "react-router-dom";
-import community from "../../graphics/community.svg";
-import innovation from "../../graphics/innovatioon.svg";
-import socialgood from "../../graphics/fun.svg";
 import communityillustration from "../../graphics/community-illustration.png";
 import innovationillustration from "../../graphics/innovation-illustration.png";
 import socialgoodillustration from "../../graphics/socialgood-illustration.png";
@@ -13,8 +10,8 @@ import socialgoodillustration from "../../graphics/socialgood-illustration.png";
 function HomeMultidisciplinary() {
 
     return (
-    <div id="home-multi" className={"home-multi"}>
-        <div className={"tech-org-text"} style={{marginTop: 110}}>
+    <div className={"home-multi"}>
+        <div className={"tech-org-text"}>
             <p>We are a tech organization that brings together a multidisciplinary community at Duke to further social good. Sound interesting?</p>
             <Link to="/about">
                     <span className={"read-our-story-button"} style={{color: "white"}}>
@@ -25,7 +22,6 @@ function HomeMultidisciplinary() {
         </div>
         <div className={"multi-boxes"}>
             <div className={"value-box"}>
-                <img src={"community"}/>
                 <img className={"illustration"} src={communityillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Community</h2>
@@ -33,7 +29,6 @@ function HomeMultidisciplinary() {
                 </div>
             </div>
             <div id={"innovation-box"} className={"value-box"}>
-                <img src={"innovation"}/>
                 <img className={"illustration"} src={innovationillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Innovation</h2>
@@ -41,7 +36,6 @@ function HomeMultidisciplinary() {
                 </div>
             </div>
             <div id={"socialgood-box"}  className={"value-box"}>
-                <img src={"socialgood"}/>
                 <img className={"illustration"} src={socialgoodillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Social Good</h2>

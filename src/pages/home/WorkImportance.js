@@ -9,9 +9,9 @@ import WhatDoWeDoImageBottom from "../../graphics/HD_2016_6 1.png";
 
 function WorkImportance() {
     return (
-        <div id="ideate" className={"ideate"}>
-            <div className={"ideate-text"}>
-                <h3 className={"who-are-we-header"}>3. Why is our work important? </h3>
+        <div id="work-importance" className={"work-importance"}>
+            <div className={"work-importance-text"}>
+                <h3 className={"work-importance-header"}>3. Why is our work important? </h3>
                 <p>Each of our events brings in over 1000 participants to craft solutions for social impact in the environment, inequality, education, and health categories. We provide the educational resources, inspirational speakers, mentorship, and nonprofit donation prizes to let others realize and unlock tech’s potential for social impact.</p>
                 <Link to="/join">
                     <span className={"join-us-button"} style={{color: "white"}}>
@@ -20,7 +20,7 @@ function WorkImportance() {
                     </span>
                 </Link>
             </div>
-            <div className={"who-are-we-photo"}>
+            <div className={"work-importance-photo"}>
                 <img className={"work-importance-image-top"} src={WhatDoWeDoImageTop}/>
                 <img className={"work-importance-image-middle"}  src={WhatDoWeDoImageMiddle}/>
                 <img className={"work-importance-image-bottom"}  src={WhatDoWeDoImageBottom}/>

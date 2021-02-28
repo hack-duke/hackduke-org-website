@@ -1,17 +1,22 @@
-.ideate {
+.what-we-do {
     max-width: 1500px;
     height: 800px;
     display: flex;
     margin: 0 auto;
+    background-image: url("/src/graphics/whatwedo-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100px;
+    background-position-x: 1000px;
+    background-position-y: 80px;
 }
 
-.ideate .ideate-text {
+.what-we-do .what-we-do-text {
     max-width: 500px;
     margin: auto 100px;
     float: left;
 }
 
-.ideate .speakers-button {
+.what-we-do .speakers-button {
     font-weight: 700;
     height: 32px;
     width: 276px;
@@ -21,7 +26,7 @@
     font-size: 16px;
 }
 
-.ideate .ideate-bg {
+.what-we-do .what-we-do-bg {
     z-index: 999;
     position: absolute;
     width: 500px;
@@ -29,7 +34,7 @@
     top: -242px;
 }
 
-.ideate .who-are-we-photo {
+.what-we-do .what-we-do-photo {
     width: 328px;
     height: 219px;
     left: 108px;
@@ -50,7 +55,7 @@
 }
 
 
-.ideate .who-are-we-header {
+.what-we-do .what-we-do-header {
     font-family: Cabin;
     font-style: normal;
     font-weight: bold;
@@ -59,7 +64,7 @@
     color: #0042C6;
 }
 
-.ideate .who-are-we-image-top {
+.what-we-do .what-we-do-image-top {
     position: absolute;
     width: 312px;
     height: 207px;
@@ -67,7 +72,7 @@
     border-radius: 8px;
 }
 
-.ideate .who-are-we-image-bottom {
+.what-we-do .what-we-do-image-bottom {
     position: absolute;
     width: 312px;
     height: 207px;
