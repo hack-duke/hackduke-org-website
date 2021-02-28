@@ -4,7 +4,7 @@ import InputTextBox from "../../components/InputTextBox";
 
 function RecruitmentMain() {
     return (
-        <div className={"recruitment-bg"}>
+        <div id="main" className={"recruitment-bg"}>
             <div className={"recruitment-main"}>
                 <div className={"recruitment-text"}>
                     <h1>Thanks for your interest in joining HackDuke!</h1>

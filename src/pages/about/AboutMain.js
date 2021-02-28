@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function AboutMain() {
     return (
-        <div className={"about-bg"}>
+        <div id="main" className={"about-bg"}>
             <div className={"about-main"}>
                 <div className={"about-text"}>
                     <h1>Mission</h1>

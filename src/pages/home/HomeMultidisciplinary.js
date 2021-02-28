@@ -1,6 +1,6 @@
 import React from "react";
 import "./NewHomeMultidisciplinary.css";
-import {Link} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 import communityillustration from "../../graphics/community-illustration.png";
 import innovationillustration from "../../graphics/innovation-illustration.png";
 import socialgoodillustration from "../../graphics/socialgood-illustration.png";
@@ -13,7 +13,7 @@ function HomeMultidisciplinary() {
     <div className={"home-multi"}>
         <div className={"tech-org-text"}>
             <p>We are a tech organization that brings together a multidisciplinary community at Duke to further social good. Sound interesting?</p>
-            <Link to="/about">
+            <Link to="/about#main">
                     <span className={"read-our-story-button"} style={{color: "white"}}>
                         Read our story&nbsp;
                         <i className="fas fa-arrow-right"/>
