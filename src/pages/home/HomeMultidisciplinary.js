@@ -11,6 +11,7 @@ import socialgoodillustration from "../../graphics/socialgood-illustration.png";
 
 
 function HomeMultidisciplinary() {
+
     return (
     <div id="home-multi" className={"home-multi"}>
         <div className={"tech-org-text"} style={{marginTop: 110}}>
@@ -31,7 +32,7 @@ function HomeMultidisciplinary() {
                     <p className={"values-paragraph"}>We believe in fostering an internal, university, and local tech community that celebrates collaboration, diversity, and social impact.</p>
                 </div>
             </div>
-            <div className={"value-box"}>
+            <div id={"innovation-box"} className={"value-box"}>
                 <img src={"innovation"}/>
                 <img className={"illustration"} src={innovationillustration}/>
                 <div className={"overlay-text"}>
@@ -39,7 +40,7 @@ function HomeMultidisciplinary() {
                     <p className={"values-paragraph"}>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build!</p>
                 </div>
             </div>
-            <div className={"value-box"}>
+            <div id={"socialgood-box"}  className={"value-box"}>
                 <img src={"socialgood"}/>
                 <img className={"illustration"} src={socialgoodillustration}/>
                 <div className={"overlay-text"}>

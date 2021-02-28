@@ -120,6 +120,15 @@
     margin: 0px 48px;
 }
 
+.home-multi .value-box#innovation-box {
+    border: 2px solid #F7AF1C;
+}
+
+.home-multi .value-box#socialgood-box {
+    border: 2px solid #E55511;
+}
+
+
 .home-multi .illustration {
     /* illustration */
 
