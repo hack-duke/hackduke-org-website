@@ -1,7 +1,7 @@
 import React from "react";
 
-import sample from "../../graphics/sample-headshot.png";
 import alisha from "../../graphics/team-photos/alisha.png";
+import kegan from "../../graphics/team-photos/kegan.jpeg";
 import danny from "../../graphics/team-photos/danny.jpg";
 import nicole from "../../graphics/team-photos/nicole.jpg";
 import isabella from "../../graphics/team-photos/isabella.jpg";
@@ -19,7 +19,7 @@ function Logistics() {
                     <p className={"profile-major"}>Computer Science & Political Science</p>
                 </div>
                 <div className={"profile-container"}>
-                    <img className={"profile-headshot"} src={sample} />
+                    <img className={"profile-headshot"} src={kegan} />
                     <h3 className={"profile-name"}>Kegan Lovell</h3>
                     <p className={"profile-title"}>Co-Lead</p>
                     <p className={"profile-major"}>Computer Science & Mathematics</p>
