@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sponsors.css";
 
-import sponsors from "../../graphics/sponsor-icons.svg";
+import sponsors from "../../graphics/sponsor-icons.png";
 
 function Sponsors() {
     return (
