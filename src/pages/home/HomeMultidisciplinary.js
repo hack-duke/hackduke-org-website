@@ -39,7 +39,7 @@ function HomeMultidisciplinary() {
                 <img className={"illustration"} src={socialgoodillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Social Good</h2>
-                    <p className={"values-paragraph"}>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build! </p>
+                    <p className={"values-paragraph"}>It’s not just about meaningful projects. We love to discuss, share, and bring to life ideas that aim to make a positive impact on social issues.</p>
                 </div>
             </div>
         </div>
