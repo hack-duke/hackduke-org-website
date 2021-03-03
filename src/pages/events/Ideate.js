@@ -25,7 +25,7 @@ function Ideate() {
             </div>
             <div className={"ideate-photos"}>
                 <SlideShow photos={photos}/>
-                <img src={ideateBg} className={"ideate-bg"}/>
+                <img alt="" src={ideateBg} className={"ideate-bg"}/>
             </div>
         </div>
     )

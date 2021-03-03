@@ -22,21 +22,21 @@ function HomeMultidisciplinary() {
         </div>
         <div className={"multi-boxes"}>
             <div className={"value-box"}>
-                <img className={"illustration"} src={communityillustration}/>
+                <img alt="" className={"illustration"} src={communityillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Community</h2>
                     <p className={"values-paragraph"}>We believe in fostering an internal, university, and local tech community that celebrates collaboration, diversity, and social impact.</p>
                 </div>
             </div>
             <div id={"innovation-box"} className={"value-box"}>
-                <img className={"illustration"} src={innovationillustration}/>
+                <img alt="" className={"illustration"} src={innovationillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Innovation</h2>
                     <p className={"values-paragraph"}>With our diverse skillsets and interests, we create extraordinary things that inspire others to create something cool. Let’s build!</p>
                 </div>
             </div>
             <div id={"socialgood-box"}  className={"value-box"}>
-                <img className={"illustration"} src={socialgoodillustration}/>
+                <img alt="" className={"illustration"} src={socialgoodillustration}/>
                 <div className={"overlay-text"}>
                     <h2 className={"values-header"}>Social Good</h2>
                     <p className={"values-paragraph"}>It’s not just about meaningful projects. We love to discuss, share, and bring to life ideas that aim to make a positive impact on social issues.</p>

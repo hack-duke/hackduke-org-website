@@ -9,8 +9,8 @@ function HelloIdeate() {
     return (
         <div id="helloideate" className={"section horizontal"}>
             <div className={"photos left"}>
-                <img alt="" src={hello1} className={"small-pic"} style={{position: "absolute", top: "15%", left: "10%"}}/>
-                <img alt="" src={hello2} className={"small-pic"} style={{position: "absolute", bottom: "15%", left: "35%"}}/>
+                <img alt="" src={hello1} className={"small-pic"} style={{position: "absolute", top: "30%", left: "10%"}}/>
+                <img alt="" src={hello2} className={"small-pic"} style={{position: "absolute", bottom: "10%", left: "35%"}}/>
             </div>
             <div className={"text"}>
                 <h2>Hello, Ideate</h2>

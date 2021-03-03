@@ -20,7 +20,7 @@ function WhoAreWe() {
                 </Link>
             </div>
             <div className={"who-are-we-photo"}>
-                <img src={HomeWhoAreWe}/>
+                <img alt="" src={HomeWhoAreWe}/>
             </div>
         </div>
     )

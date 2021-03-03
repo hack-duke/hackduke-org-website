@@ -16,7 +16,7 @@ export default ({photos}) => {
             speed={1000}
         >
             {photos.map(i => {
-                return <SwiperSlide><img className={"hd-photo-template"} src={i}/></SwiperSlide>;
+                return <SwiperSlide><img alt="" className={"hd-photo-template"} src={i}/></SwiperSlide>;
             })}
         </Swiper>
     );

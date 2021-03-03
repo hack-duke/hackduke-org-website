@@ -21,9 +21,9 @@ function WorkImportance() {
                 </Link>
             </div>
             <div className={"work-importance-photo"}>
-                <img className={"work-importance-image-top"} src={WhatDoWeDoImageTop}/>
-                <img className={"work-importance-image-middle"}  src={WhatDoWeDoImageMiddle}/>
-                <img className={"work-importance-image-bottom"}  src={WhatDoWeDoImageBottom}/>
+                <img alt="" className={"work-importance-image-top"} src={WhatDoWeDoImageTop}/>
+                <img alt="" className={"work-importance-image-middle"}  src={WhatDoWeDoImageMiddle}/>
+                <img alt="" className={"work-importance-image-bottom"}  src={WhatDoWeDoImageBottom}/>
             </div>
         </div>
     )

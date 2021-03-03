@@ -26,7 +26,7 @@ function CodeForGood() {
             </div>
             <div className={"hd-photos"}>
                 <SlideShow photos={photos}/>
-                <img src={hdBg} className={"hd-bg"}/>
+                <img alt="" src={hdBg} className={"hd-bg"}/>
             </div>
         </div>
     )
