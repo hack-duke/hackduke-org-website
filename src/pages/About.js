@@ -17,14 +17,16 @@ function About() {
                 <Navbar color={"#E55511"}/>
                 <AboutMain/>
             </div>
-            <OurStory/>
-            <BigPhoto/>
-            <ForSocialGood/>
-            <HelloIdeate/>
-            <MovingVirtual/>
-            <WhatNow/>
-            <JoinTheTeam/>
-            <Footer/>
+            <div className={"about"}>
+                <OurStory/>
+                <BigPhoto/>
+                <ForSocialGood/>
+                <HelloIdeate/>
+                <MovingVirtual/>
+                <WhatNow/>
+                <JoinTheTeam/>
+                <Footer/>
+            </div>
         </div>
 
     );

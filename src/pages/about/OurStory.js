@@ -7,7 +7,7 @@ import deco1 from "../../graphics/our-story-deco1.svg";
 
 function OurStory() {
     return (
-        <div id="ourstory" className={"section horizontal"}>
+        <div id="our-story" className={"section horizontal"}>
             <div className={"text"}>
                 <h1 style={{marginBottom: "40px"}}>Our Story</h1>
                 <h2>"Do Something New"</h2>

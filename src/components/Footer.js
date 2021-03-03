@@ -22,7 +22,7 @@ function Footer() {
                 <div className={"links-section"}>
                     <div>
                         <h3>About</h3>
-                        <Link to="/about"><p>Mission</p></Link>
+                        <Link to="/about#main"><p>Mission</p></Link>
                         <Link to="/about#our-story"><p>Our Story</p></Link>
                     </div>
                     <div>
