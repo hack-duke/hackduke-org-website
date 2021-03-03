@@ -1,0 +1,60 @@
+.vertical {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.horizontal {
+    max-width: 1500px;
+}
+
+.section {
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.section .text {
+    /* width: 1000px; */
+    margin: auto 100px;
+    float: left;
+}
+
+.horizontal .text {
+    max-width: 500px;
+    margin: auto 100px;
+    float: left;
+}
+
+.section .small-pic {
+    z-index: 999;
+    width: 380px;
+}
+
+.section .large-pic {
+    z-index: 999;
+    width: 550px;
+}
+
+.section .photos {
+    margin: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section .left {
+    float: left;
+    width: 40%;
+}
+
+.section .right {
+    float: right;
+    width: 40%;
+}
+
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
