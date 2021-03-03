@@ -1,0 +1,70 @@
+.directors {
+    background-image: url("/src/graphics/director-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 400px;
+    background-position-x: 800px;
+    background-position-y: center;
+    max-width: 1500px;
+    height: 350px;
+    margin: 0px auto;
+    padding: 100px;
+}
+
+.director-title {
+    margin-bottom: 50px;
+}
+
+.profile-grid {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-container {
+    margin-right: 45px;
+    margin-bottom: 50px;
+    width: 200px;
+}
+
+.profile-headshot {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.profile-name {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.profile-title-director {
+    font-weight: 700;
+    color: #0042C6;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    margin: 10px 0;
+}
+
+.profile-title {
+    font-weight: 700;
+    color: #35C69B;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    margin: 10px 0;
+}
+
+.profile-major {
+    font-size: 16px;
+    font-style: italic;
+    color: #242424;
+    font-family: "Source Sans Pro";
+    margin: 10px 0;
+}
+
+.director-bg {
+    z-index: 999;
+    position: absolute;
+    width: 80px;
+    left: 450px;
+    top: -50px;
+}

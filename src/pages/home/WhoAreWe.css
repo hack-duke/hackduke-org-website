@@ -1,0 +1,73 @@
+.who-are-we {
+    max-width: 1500px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    background-image: url("/src/graphics/whoweare-bg.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 350px;
+    background-position-x: 900px;
+    background-position-y: 150px;
+}
+
+.who-are-we .who-are-we-text {
+    max-width: 500px;
+    margin: auto 100px;
+    float: left;
+}
+
+.who-are-we .speakers-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    background-color: #F7AF1C;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.who-are-we .who-are-we-bg {
+    z-index: 999;
+    position: absolute;
+    width: 500px;
+    right: -28px;
+    top: -242px;
+}
+
+.who-are-we .who-are-we-photo {
+    width: 328px;
+    height: 219px;
+    left: 108px;
+    float: right;
+    margin: auto;
+    position: relative;
+}
+
+.meet-the-peeps-button {
+    font-weight: 700;
+    height: 32px;
+    width: 276px;
+    padding: 6px 12px;
+    font-size: 16px;
+    background: #35C69B;
+    border-radius: 3px;
+
+}
+
+
+.who-are-we .who-are-we-header {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #0042C6;
+}
+
+.who-are-we .cross {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 300px;
+
+}

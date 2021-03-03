@@ -27,11 +27,12 @@ function Footer() {
                     </div>
                     <div>
                         <h3>Humans</h3>
+                        <Link to="/humans#directors"><p>Directors</p></Link>
                         <Link to="/humans#tech"><p>Tech</p></Link>
+                        <Link to="/humans#design"><p>Design</p></Link>
+                        <Link to="/humans#logistics"><p>Logistics</p></Link>
                         <Link to="/humans#outreach"><p>Outreach</p></Link>
                         <Link to="/humans#sponsorship"><p>Sponsorship</p></Link>
-                        <Link to="/humans#logistics"><p>Logistics</p></Link>
-                        <Link to="/humans#design"><p>Design</p></Link>
                     </div>
                     <div>
                         <h3>Events</h3>
