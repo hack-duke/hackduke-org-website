@@ -9,7 +9,7 @@ import virtual2 from "../../graphics/moving-virtual2.png";
 function MovingVirtual() {
     return (
         <div id="movingvirtual" className={"section horizontal"}>
-            <img src={deco} style={{position: "absolute", right: "0"}}></img>
+            <img alt="" src={deco} style={{position: "absolute", right: "0"}}></img>
             <div className={"text"}>
                 <h2>Moving Virtual</h2>
                 <p>Of course, we can’t forget 2020. Despite being literally scattered across the globe, our planning teams were able to successfully organize our annual events online. In July 2020, we hosted our first virtual Ideate, welcoming students from India, South Korea, Philippines, and Puerto Rico. (Durham who? jk we love our city). In December of the same year, we hosted yet another successful Code for Good hackathon.</p>

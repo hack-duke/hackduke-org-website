@@ -21,8 +21,8 @@ function WhatDoWeDo() {
                 </Link>
             </div>
             <div className={"what-we-do-photo"}>
-                <img className={"what-we-do-image-top"} src={WhatDoWeDoImageTop}/>
-                <img className={"what-we-do-image-bottom"} src={WhatDoWeDoImageBottom}/>
+                <img alt="" className={"what-we-do-image-top"} src={WhatDoWeDoImageTop}/>
+                <img alt="" className={"what-we-do-image-bottom"} src={WhatDoWeDoImageBottom}/>
             </div>
         </div>
     )
