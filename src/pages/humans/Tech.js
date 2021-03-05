@@ -42,7 +42,7 @@ function Tech() {
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={anju} />
                     <h3 className={"profile-name"}>Anju Sekar</h3>
-                    <p className={"profile-major"}>Computer Science & Math</p>
+                    <p className={"profile-major"}>Computer Science & Mathematics</p>
                 </div>
             </div>
         </div>
