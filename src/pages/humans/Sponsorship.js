@@ -1,7 +1,7 @@
 import React from "react";
 
-import sample from "../../graphics/sample-headshot.png";
 import della from "../../graphics/team-photos/della.jpg";
+import raymond from "../../graphics/team-photos/raymond.jpg";
 import jason from "../../graphics/team-photos/jason.jpeg";
 
 function Sponsorship() {
@@ -16,10 +16,10 @@ function Sponsorship() {
                     <p className={"profile-major"}>Computer Science & Economics</p>
                 </div>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={sample} />
+                    <img alt="" className={"profile-headshot"} src={raymond} />
                     <h3 className={"profile-name"}>Raymond Lin</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}></p>
+                    <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={jason} />
