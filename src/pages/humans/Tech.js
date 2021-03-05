@@ -6,8 +6,6 @@ import frankie from "../../graphics/team-photos/frankie.jpeg";
 import alex from "../../graphics/team-photos/alex.JPG";
 import han from "../../graphics/team-photos/hanzhang.jpg";
 import anju from "../../graphics/team-photos/anju.JPG";
-import naman from "../../graphics/team-photos/naman.jpeg";
-
 
 function Tech() {
     return (
@@ -45,11 +43,6 @@ function Tech() {
                     <img alt="" className={"profile-headshot"} src={anju} />
                     <h3 className={"profile-name"}>Anju Sekar</h3>
                     <p className={"profile-major"}>Computer Science & Math</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={naman} />
-                    <h3 className={"profile-name"}>Naman Parikh</h3>
-                    <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
             </div>
         </div>
