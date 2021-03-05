@@ -8,7 +8,7 @@ import Outreach from "./Outreach";
 import Sponsorship from "./Sponsorship";
 
 function Teams() {
-    const [team, setTeam] = useState(window.location && window.location.hash.slice(1) || "");
+    const [team, setTeam] = useState(window.location && window.location.hash.slice(1) || "tech");
 
     const switchTeams = () => {
         switch (team) {
