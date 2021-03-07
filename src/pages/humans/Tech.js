@@ -5,7 +5,6 @@ import braden from "../../graphics/team-photos/braden.png";
 import frankie from "../../graphics/team-photos/frankie.jpeg";
 import alex from "../../graphics/team-photos/alex.JPG";
 import han from "../../graphics/team-photos/hanzhang.jpg";
-import anju from "../../graphics/team-photos/anju.JPG";
 
 function Tech() {
     return (
@@ -38,11 +37,6 @@ function Tech() {
                     <img alt="" className={"profile-headshot"} src={han} />
                     <h3 className={"profile-name"}>Han Zhang</h3>
                     <p className={"profile-major"}>Computer Science & Economics</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={anju} />
-                    <h3 className={"profile-name"}>Anju Sekar</h3>
-                    <p className={"profile-major"}>Computer Science & Mathematics</p>
                 </div>
             </div>
         </div>
