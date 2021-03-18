@@ -2,6 +2,7 @@ import React from "react";
 
 import alisha from "../../graphics/team-photos/alisha.png";
 import kegan from "../../graphics/team-photos/kegan.jpeg";
+import evan from "../../graphics/team-photos/evan.jpg";
 import danny from "../../graphics/team-photos/danny.jpg";
 import nicole from "../../graphics/team-photos/nicole.jpg";
 import isabella from "../../graphics/team-photos/isabella.jpg";
@@ -23,6 +24,11 @@ function Logistics() {
                     <h3 className={"profile-name"}>Kegan Lovell</h3>
                     <p className={"profile-title"}>Co-Lead</p>
                     <p className={"profile-major"}>Computer Science & Mathematics</p>
+                </div>
+                <div className={"profile-container"}>
+                    <img alt="" className={"profile-headshot"} src={evan} />
+                    <h3 className={"profile-name"}>Evan Kenyon</h3>
+                    <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={danny} />
