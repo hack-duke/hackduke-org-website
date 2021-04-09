@@ -1,7 +1,7 @@
 import React from "react";
 
 import ryleigh from "../../graphics/team-photos/ryleigh.png";
-import samy from "../../graphics/team-photos/samy.JPG";
+import samy from "../../graphics/team-photos/samy.jpg";
 import heather from "../../graphics/team-photos/heather.jpeg";
 import samuel from "../../graphics/team-photos/sam.jpeg";
 import naomie from "../../graphics/team-photos/naomie.jpg";

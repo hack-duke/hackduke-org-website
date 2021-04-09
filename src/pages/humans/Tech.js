@@ -3,7 +3,7 @@ import React from "react";
 import james from "../../graphics/team-photos/james.jpeg";
 import braden from "../../graphics/team-photos/braden.png";
 import frankie from "../../graphics/team-photos/frankie.jpeg";
-import alex from "../../graphics/team-photos/alex.JPG";
+import alex from "../../graphics/team-photos/alex.jpeg";
 import han from "../../graphics/team-photos/hanzhang.jpg";
 
 function Tech() {

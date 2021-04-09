@@ -1,12 +1,12 @@
 import React from "react";
 
-import anna from "../../graphics/team-photos/anna.JPG";
+import anna from "../../graphics/team-photos/anna.jpg";
 import maggie from "../../graphics/team-photos/maggie.png";
 import julia from "../../graphics/team-photos/julia.jpeg";
-import amrita from "../../graphics/team-photos/amrita.jpg";
-import asher from "../../graphics/team-photos/asher.JPG";
+import amrita from "../../graphics/team-photos/amrita.jpeg";
+import asher from "../../graphics/team-photos/asher.jpg";
 import francesca from "../../graphics/team-photos/francesca.jpeg";
-import janis from "../../graphics/team-photos/janis.JPG";
+import janis from "../../graphics/team-photos/janis.jpg";
 
 function Design() {
     return (
