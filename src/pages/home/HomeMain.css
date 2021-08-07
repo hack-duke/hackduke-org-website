@@ -19,8 +19,11 @@
     margin-bottom: 50px;
 }
 
-.home-main-button {
+.home-main-button-container {
     display: block;
+}
+
+.home-main-button {
     color: white;
     font-weight: 700;
     height: 32px;
