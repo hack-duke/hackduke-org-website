@@ -5,7 +5,7 @@ import jacob from "../../graphics/team-photos/jacob.jpeg";
 import johnny from "../../graphics/team-photos/johnny.jpeg";
 import ruohan from "../../graphics/team-photos/ruohan.jpg";
 import khushmeet from "../../graphics/team-photos/khushmeet.jpg";
-import dennis from "../../graphics/team-photos/dennis.png";
+import dennis from "../../graphics/team-photos/dennis.jpg";
 
 function Tech() {
     return (
