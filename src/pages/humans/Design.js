@@ -14,36 +14,26 @@ function Design() {
             <p style={{fontSize: "20px", marginBottom: "30px"}}>More than just making things look pretty! But we do enjoy a good deal of pixel-pushing...</p>
             <div className={"profile-grid"}>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={anna} />
-                    <h3 className={"profile-name"}>Anna Song</h3>
+                    <img alt="" className={"profile-headshot"} src={ashley} />
+                    <h3 className={"profile-name"}>Ashley Chen</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}>Mechanical Engineering</p>
+                    <p className={"profile-major"}></p>
                 </div>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={maggie} />
-                    <h3 className={"profile-name"}>Maggie Pan</h3>
+                    <img alt="" className={"profile-headshot"} src={may} />
+                    <h3 className={"profile-name"}>May Fu</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}>Mathematics & Psychology</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={julia} />
-                    <h3 className={"profile-name"}>Julia Lang</h3>
-                    <p className={"profile-major"}>Computer Science & VMS</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={amrita} />
-                    <h3 className={"profile-name"}>Amrita Lakhanpal</h3>
                     <p className={"profile-major"}>Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={asher} />
-                    <h3 className={"profile-name"}>Asher Early</h3>
-                    <p className={"profile-major"}>ECE & Computer Science</p>
+                    <img alt="" className={"profile-headshot"} src={anna} />
+                    <h3 className={"profile-name"}>Anna Song</h3>
+                    <p className={"profile-major"}>Mechanical Engineering</p>
                 </div>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={francesca} />
-                    <h3 className={"profile-name"}>Francesca Ramos</h3>
-                    <p className={"profile-major"}>Biology</p>
+                    <img alt="" className={"profile-headshot"} src={caroline} />
+                    <h3 className={"profile-name"}>Caroline Winakur</h3>
+                    <p className={"profile-major"}></p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={janis} />
