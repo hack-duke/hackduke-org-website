@@ -1,11 +1,9 @@
 import React from "react";
 
 import anna from "../../graphics/team-photos/anna.jpg";
-import maggie from "../../graphics/team-photos/maggie.png";
-import julia from "../../graphics/team-photos/julia.jpeg";
-import amrita from "../../graphics/team-photos/amrita.jpeg";
-import asher from "../../graphics/team-photos/asher.jpg";
-import francesca from "../../graphics/team-photos/francesca.jpeg";
+import ashley from "../../graphics/team-photos/ashley.jpg";
+import may from "../../graphics/team-photos/may.jpeg";
+import caroline from "../../graphics/team-photos/caroline.jpeg"
 import janis from "../../graphics/team-photos/janis.jpg";
 
 function Design() {

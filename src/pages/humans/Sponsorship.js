@@ -1,6 +1,6 @@
 import React from "react";
 
-import christian from "../../graphics/team-photos/christian.jpg";
+import christian from "../../graphics/team-photos/christian.png";
 import dennis from "../../graphics/team-photos/dennis.jpg";
 import alan from "../../graphics/team-photos/alan.jpeg";
 import islina from "../../graphics/team-photos/islina.jpg";
