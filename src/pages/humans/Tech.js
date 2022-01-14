@@ -5,6 +5,7 @@ import johnny from "../../graphics/team-photos/johnny.jpeg";
 import ruohan from "../../graphics/team-photos/ruohan.jpg";
 import khushmeet from "../../graphics/team-photos/khushmeet.jpg";
 import tony from "../../graphics/team-photos/tony.jpg";
+import kevin from "../../graphics/team-photos/kevin.png";
 
 function Tech() {
     return (
@@ -24,14 +25,19 @@ function Tech() {
                     <p className={"profile-major"}>Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
-                <img alt="" className={"profile-headshot"} src={tony} />
-                    <h3 className={"profile-name"}>Tony Wu</h3>
-                    <p className={"profile-major"}>Computer Science & Math</p>
-                </div>
-                <div className={"profile-container"}>
                 <img alt="" className={"profile-headshot"} src={khushmeet} />
                     <h3 className={"profile-name"}>Khushmeet Chandi</h3>
                     <p className={"profile-major"}>Computer Science</p>
+                </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={kevin} />
+                    <h3 className={"profile-name"}>Kevin Kong</h3>
+                    <p className={"profile-major"}>Computer Science</p>
+                </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={tony} />
+                    <h3 className={"profile-name"}>Tony Wu</h3>
+                    <p className={"profile-major"}>Computer Science & Math</p>
                 </div>
                 <div className={"profile-container"}>
                 <img alt="" className={"profile-headshot"} src={ruohan} />
