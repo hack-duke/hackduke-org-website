@@ -26,7 +26,7 @@ function Sponsorship() {
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={alan} />
                     <h3 className={"profile-name"}>Alan Bi</h3>
-                    <p className={"profile-major"}>Computer Science</p>
+                    <p className={"profile-major"}>Computer Science & Statistics</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={islina} />
