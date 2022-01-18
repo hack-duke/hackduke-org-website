@@ -5,6 +5,7 @@ import dennis from "../../graphics/team-photos/dennis.jpg";
 import alan from "../../graphics/team-photos/alan.jpeg";
 import islina from "../../graphics/team-photos/islina.jpg";
 import sudhir from "../../graphics/team-photos/sudhir.jpg";
+import tarun from "../../graphics/team-photos/tarun.jpg";
 
 function Sponsorship() {
     return (
@@ -37,6 +38,11 @@ function Sponsorship() {
                     <img alt="" className={"profile-headshot"} src={sudhir} />
                     <h3 className={"profile-name"}>Sudhir Chowdhry</h3>
                     <p className={"profile-major"}>Computer Science</p>
+                </div>
+                <div className={"profile-container"}>
+                    <img alt="" className={"profile-headshot"} src={tarun} />
+                    <h3 className={"profile-name"}>Tarun Amasa</h3>
+                    <p className={"profile-major"}>Computer Science & Mathematics</p>
                 </div>
             </div>
         </div>

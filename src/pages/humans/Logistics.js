@@ -15,13 +15,13 @@ function Logistics() {
                     <img alt="" className={"profile-headshot"} src={john} />
                     <h3 className={"profile-name"}>John Lee</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}></p>
+                    <p className={"profile-major"}>Biomedical Engineering</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={nancy} />
                     <h3 className={"profile-name"}>Nancy Phan</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}></p>
+                    <p className={"profile-major"}>Program II: Urban Planning</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={kegan} />
