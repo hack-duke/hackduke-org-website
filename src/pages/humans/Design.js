@@ -15,7 +15,7 @@ function Design() {
                     <img alt="" className={"profile-headshot"} src={ashley} />
                     <h3 className={"profile-name"}>Ashley Chen</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}></p>
+                    <p className={"profile-major"}>Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={may} />
@@ -31,7 +31,7 @@ function Design() {
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={caroline} />
                     <h3 className={"profile-name"}>Caroline Winakur</h3>
-                    <p className={"profile-major"}></p>
+                    <p className={"profile-major"}>ECE & Physics</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={janis} />

@@ -14,7 +14,7 @@ function Outreach() {
                     <img alt="" className={"profile-headshot"} src={nWang} />
                     <h3 className={"profile-name"}>N Wang</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}></p>
+                    <p className={"profile-major"}>Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={robert} />
