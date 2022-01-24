@@ -1,6 +1,6 @@
 import React from "react";
 import "./HumansMain.css";
-import teamPhoto from "../../graphics/team-photo.png"
+import teamPhoto from "../../graphics/team-photo-2021.png"
 
 function HumansMain() {
     return (
