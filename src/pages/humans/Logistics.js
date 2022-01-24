@@ -1,11 +1,9 @@
 import React from "react";
 
-import alisha from "../../graphics/team-photos/alisha.png";
-import kegan from "../../graphics/team-photos/kegan.jpeg";
+import john from "../../graphics/team-photos/john.jpg";
+import nancy from "../../graphics/team-photos/nancy.png";
 import evan from "../../graphics/team-photos/evan.jpg";
-import danny from "../../graphics/team-photos/danny.jpg";
-import nicole from "../../graphics/team-photos/nicole.jpg";
-import isabella from "../../graphics/team-photos/isabella.jpg";
+import kegan from "../../graphics/team-photos/kegan.jpeg";
 
 
 function Logistics() {
@@ -14,36 +12,26 @@ function Logistics() {
             <p style={{fontSize: "20px", marginBottom: "30px"}}>We make everything run smoothly. Oh, you need something? Don’t worry, consider it done.</p>
             <div className={"profile-grid"}>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={alisha} />
-                    <h3 className={"profile-name"}>Alisha Nayak</h3>
+                    <img alt="" className={"profile-headshot"} src={john} />
+                    <h3 className={"profile-name"}>John Lee</h3>
                     <p className={"profile-title"}>Co-Lead</p>
-                    <p className={"profile-major"}>Computer Science & Political Science</p>
+                    <p className={"profile-major"}>Biomedical Engineering</p>
+                </div>
+                <div className={"profile-container"}>
+                    <img alt="" className={"profile-headshot"} src={nancy} />
+                    <h3 className={"profile-name"}>Nancy Phan</h3>
+                    <p className={"profile-title"}>Co-Lead</p>
+                    <p className={"profile-major"}>Program II: Urban Planning</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={kegan} />
                     <h3 className={"profile-name"}>Kegan Lovell</h3>
-                    <p className={"profile-title"}>Co-Lead</p>
                     <p className={"profile-major"}>Computer Science & Mathematics</p>
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={evan} />
                     <h3 className={"profile-name"}>Evan Kenyon</h3>
                     <p className={"profile-major"}>ECE & Computer Science</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={danny} />
-                    <h3 className={"profile-name"}>Danny Luo</h3>
-                    <p className={"profile-major"}>Computer Science & Statistics</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={nicole} />
-                    <h3 className={"profile-name"}>Nicole Malpeli</h3>
-                    <p className={"profile-major"}>Computer Science</p>
-                </div>
-                <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={isabella} />
-                    <h3 className={"profile-name"}>Isabella Wang</h3>
-                    <p className={"profile-major"}>BME & Computer Science</p>
                 </div>
             </div>
         </div>
