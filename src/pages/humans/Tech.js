@@ -56,17 +56,12 @@ function Tech() {
                 <div className={"profile-container"}>
                 <img alt="" className={"profile-headshot"} src={evan_glas} />
                     <h3 className={"profile-name"}>Evan Glas</h3>
-                    <p className={"profile-major"}>ECE/CS</p>
+                    <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
                 <img alt="" className={"profile-headshot"} src={graham} />
-                    <h3 className={"profile-name"}>Garham Gumbert</h3>
-                    <p className={"profile-major"}>ECE/CS</p>
-                </div>
-                <div className={"profile-container"}>
-                <img alt="" className={"profile-headshot"} src={benny} />
-                    <h3 className={"profile-name"}>Benny Sun</h3>
-                    <p className={"profile-major"}>CS/Math</p>
+                    <h3 className={"profile-name"}>Graham Gumbert</h3>
+                    <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
             </div>
         </div>
