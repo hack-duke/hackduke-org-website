@@ -6,6 +6,10 @@ import ruohan from "../../graphics/team-photos/ruohan.jpg";
 import khushmeet from "../../graphics/team-photos/khushmeet.jpg";
 import tony from "../../graphics/team-photos/tony.jpg";
 import kevin from "../../graphics/team-photos/kevin.png";
+import chika from "../../graphics/team-photos/chika.jpg"
+import evan_glas from "../../graphics/team-photos/evan_glas.jpg"
+import graham from "../../graphics/team-photos/graham.jpg"
+import benny from "../../graphics/team-photos/benny.jpg"
 
 function Tech() {
     return (
@@ -43,6 +47,26 @@ function Tech() {
                 <img alt="" className={"profile-headshot"} src={ruohan} />
                     <h3 className={"profile-name"}>Ruohan Zhang</h3>
                     <p className={"profile-major"}>Computer Science</p>
+                </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={chika} />
+                    <h3 className={"profile-name"}>Chika Dueke-Eze</h3>
+                    <p className={"profile-major"}>Computer Science</p>
+                </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={evan_glas} />
+                    <h3 className={"profile-name"}>Evan Glas</h3>
+                    <p className={"profile-major"}>ECE/CS</p>
+                </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={graham} />
+                    <h3 className={"profile-name"}>Garham Gumbert</h3>
+                    <p className={"profile-major"}>ECE/CS</p>
+                </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={benny} />
+                    <h3 className={"profile-name"}>Benny Sun</h3>
+                    <p className={"profile-major"}>CS/Math</p>
                 </div>
             </div>
         </div>
