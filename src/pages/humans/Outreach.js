@@ -5,7 +5,7 @@ import nWang from "../../graphics/team-photos/nWang.png";
 import robert from "../../graphics/team-photos/Robertson.png";
 import lena from "../../graphics/team-photos/lena.png";
 import aditya from "../../graphics/team-photos/aditya.jpg";
-import ben from "../../graphics/team-photos/ben.jpg";
+import ben from "../../graphics/team-photos/benjamin.jpg";
 
 function Outreach() {
     return (
@@ -41,7 +41,7 @@ function Outreach() {
                 </div>
                 <div className={"profile-container"}>
                     <img alt="" className={"profile-headshot"} src={ben} />
-                    <h3 className={"profile-name"}>Ben Peng</h3>
+                    <h3 className={"profile-name"}>Benjamin Peng</h3>
                     <p className={"profile-major"}>Computer Science & Math</p>
                 </div>
             </div>
