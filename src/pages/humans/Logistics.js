@@ -4,6 +4,8 @@ import john from "../../graphics/team-photos/john.jpg";
 import nancy from "../../graphics/team-photos/nancy.png";
 import evan from "../../graphics/team-photos/evan.jpg";
 import kegan from "../../graphics/team-photos/kegan.jpeg";
+import esha from "../../graphics/team-photos/esha_kapoor.jpg";
+import adam from "../../graphics/team-photos/adam_ebrahim.jpg";
 
 
 function Logistics() {
@@ -24,13 +26,13 @@ function Logistics() {
                     <p className={"profile-major"}>Program II: Urban Planning</p>
                 </div>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={kegan} />
-                    <h3 className={"profile-name"}>Kegan Lovell</h3>
-                    <p className={"profile-major"}>Computer Science & Mathematics</p>
+                    <img alt="" className={"profile-headshot"} src={esha} />
+                    <h3 className={"profile-name"}>Esha Kapoor</h3>
+                    <p className={"profile-major"}>Computer Science</p>
                 </div>
                 <div className={"profile-container"}>
-                    <img alt="" className={"profile-headshot"} src={evan} />
-                    <h3 className={"profile-name"}>Evan Kenyon</h3>
+                    <img alt="" className={"profile-headshot"} src={adam} />
+                    <h3 className={"profile-name"}>Adam Ebrahim</h3>
                     <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
             </div>
