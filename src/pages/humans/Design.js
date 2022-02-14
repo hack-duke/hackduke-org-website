@@ -7,6 +7,8 @@ import caroline from "../../graphics/team-photos/caroline.jpeg"
 import janis from "../../graphics/team-photos/janis.jpg";
 import emily from "../../graphics/team-photos/emily.jpeg";
 import saranyaa from "../../graphics/team-photos/saranyaa.jpeg";
+import grace from "../../graphics/team-photos/grace.jpeg";
+import lily from "../../graphics/team-photos/lily.jpg";
 
 function Design() {
     return (
@@ -49,6 +51,16 @@ function Design() {
                     <img alt="" className={"profile-headshot"} src={saranyaa} />
                     <h3 className={"profile-name"}>Saranyaa Kashyap</h3>
                     <p className={"profile-major"}>Mechanical Engineering</p>
+                </div>
+                <div className={"profile-container"}>
+                    <img alt="" className={"profile-headshot"} src={lily} />
+                    <h3 className={"profile-name"}>Lily Zhang</h3>
+                    <p className={"profile-major"}>Economics</p>
+                </div>
+                <div className={"profile-container"}>
+                    <img alt="" className={"profile-headshot"} src={grace} />
+                    <h3 className={"profile-name"}>Grace Liu</h3>
+                    <p className={"profile-major"}>Computer Science</p>
                 </div>
             </div>
         </div>
