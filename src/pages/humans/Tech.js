@@ -10,6 +10,8 @@ import chika from "../../graphics/team-photos/chika.jpg"
 import evan_glas from "../../graphics/team-photos/evan_glas.jpg"
 import graham from "../../graphics/team-photos/graham.jpg"
 import benny from "../../graphics/team-photos/benny.jpg"
+import nishant from "../../graphics/team-photos/nishant.jpg"
+
 
 function Tech() {
     return (
@@ -63,9 +65,13 @@ function Tech() {
                     <h3 className={"profile-name"}>Graham Gumbert</h3>
                     <p className={"profile-major"}>ECE & Computer Science</p>
                 </div>
+                <div className={"profile-container"}>
+                <img alt="" className={"profile-headshot"} src={nishant} />
+                    <h3 className={"profile-name"}>Nishant Wangneo</h3>
+                    <p className={"profile-major"}>ECE & Computer Science</p>
+                </div>
             </div>
         </div>
     )
 }
-
 export default Tech;
