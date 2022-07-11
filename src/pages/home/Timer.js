@@ -3,7 +3,9 @@ import "./Timer.css";
 
 const Timer = () => {
   const createTimer = () => {
-    let dif = +new Date("11/5/2022") - +new Date();
+    var cfgDate = new Date("11/5/2022");
+    cfgDate.setHours(cfgDate.getHours() + 8);
+    let dif = +cfgDate - +new Date();
     let timeRemaining = {
       days: Math.floor(dif / (1000 * 60 * 60 * 24)),
       hours: Math.floor((dif / (1000 * 60 * 60)) % 24),
