@@ -3,7 +3,7 @@ import "./Timer.css";
 
 const Timer = () => {
   const createTimer = () => {
-    var cfgDate = new Date("11/5/2022");
+    var cfgDate = new Date("10/22/2022");
     cfgDate.setHours(cfgDate.getHours() + 8);
     let dif = +cfgDate - +new Date();
     let timeRemaining = {
@@ -44,7 +44,7 @@ const Timer = () => {
 
   return (
     <div className="timer">
-      Code for Good 2022 Countdown
+      Code for Good 2022 - October 22-23
       <br />
       {timerComponents.length ? (
         timerComponents
