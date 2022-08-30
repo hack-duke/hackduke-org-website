@@ -10,6 +10,13 @@
     background-position-y: 80px;
 }
 
+@media (max-width: 700px) {
+    .what-we-do {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
 .what-we-do .what-we-do-text {
     max-width: 500px;
     margin: auto 100px;
@@ -43,6 +50,13 @@
     position: relative;
 }
 
+@media (max-width: 700px) {
+    .what-we-do .what-we-do-photo {
+        position: inherit;
+        margin-top: 35px;
+    }
+}
+
 .see-our-work-button {
     font-weight: 700;
     height: 32px;
@@ -72,6 +86,14 @@
     border-radius: 8px;
 }
 
+@media (max-width: 700px) {
+    .what-we-do .what-we-do-image-top {
+        position: inherit;
+        width: 328px;
+        height: 218px;
+    }
+}
+
 .what-we-do .what-we-do-image-bottom {
     position: absolute;
     width: 312px;
@@ -79,4 +101,12 @@
     left: 75px;
     top: 220px;
     border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .what-we-do .what-we-do-image-bottom {
+        position: inherit;
+        width: 328px;
+        height: 218px;
+    }
 }

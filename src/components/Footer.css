@@ -7,9 +7,26 @@
     margin: 0px auto;
 }
 
+@media (max-width: 700px) {
+    .footer {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .logos-section {
     float: left;
     margin: 50px;
+}
+
+@media (max-width: 700px) {
+    .logos-section {
+        text-align: center;
+        float: none;
+        margin: 0;
+        align-self: center;
+    }
 }
 
 .mini-hd-logo {
@@ -29,6 +46,12 @@
     display: flex;
     width: 40%;
     justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .links-section {
+        display: none;
+    }
 }
 
 .links-section h3 {

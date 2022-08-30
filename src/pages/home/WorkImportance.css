@@ -10,6 +10,13 @@
     background-position-y: 200px;
 }
 
+@media (max-width: 700px) {
+    .work-importance {
+        flex-direction: column;
+        margin: 300px auto 200px;
+    }
+}
+
 .work-importance .work-importance-text {
     max-width: 500px;
     margin: auto 100px;
@@ -43,6 +50,13 @@
     position: relative;
 }
 
+@media (max-width: 700px) {
+    .work-importance .work-importance-photo {
+        margin-top: 35px;
+        position: inherit;
+    }
+}
+
 .join-us-button {
     font-weight: 700;
     height: 32px;
@@ -72,6 +86,12 @@
     border-radius: 8px;
 }
 
+@media (max-width: 700px) {
+    .work-importance .work-importance-image-top {
+        display: none;
+    }
+}
+
 .work-importance .work-importance-image-middle {
     position: absolute;
     width: 279px;
@@ -81,6 +101,14 @@
     border-radius: 8px;
 }
 
+@media (max-width: 700px) {
+    .work-importance .work-importance-image-middle {
+        position: inherit;
+        width: 328px;
+        height: 218px;
+    }
+}
+
 .work-importance .work-importance-image-bottom {
     position: absolute;
     width: 187px;
@@ -88,4 +116,10 @@
     left: 180px;
     top: 325px;
     border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .work-importance .work-importance-image-bottom {
+        display: none;
+    }
 }

@@ -10,6 +10,12 @@
     background-position-y: 150px;
 }
 
+@media (max-width: 700px) {
+    .who-are-we {
+        flex-direction: column;
+    }
+}
+
 .who-are-we .who-are-we-text {
     max-width: 500px;
     margin: auto 100px;
@@ -41,6 +47,13 @@
     float: right;
     margin: auto;
     position: relative;
+}
+
+@media (max-width: 700px) {
+    .who-are-we .who-are-we-photo {
+        position: inherit;
+        margin: 35px auto 0 auto;
+    }
 }
 
 .meet-the-peeps-button {
