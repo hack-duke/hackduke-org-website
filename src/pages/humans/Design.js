@@ -31,9 +31,9 @@ function Design() {
           <p className={"profile-major"}>Computer Science</p>
         </div>
         <div className={"profile-container"}>
-          <img alt="" className={"profile-headshot"} src={caroline} />
-          <h3 className={"profile-name"}>Caroline Winakur</h3>
-          <p className={"profile-major"}>ECE & Physics</p>
+          <img alt="" className={"profile-headshot"} src={grace} />
+          <h3 className={"profile-name"}>Grace Liu</h3>
+          <p className={"profile-major"}>Computer Science</p>
         </div>
         <div className={"profile-container"}>
           <img alt="" className={"profile-headshot"} src={emily} />
@@ -41,9 +41,9 @@ function Design() {
           <p className={"profile-major"}>Computer Science</p>
         </div>
         <div className={"profile-container"}>
-          <img alt="" className={"profile-headshot"} src={grace} />
-          <h3 className={"profile-name"}>Grace Liu</h3>
-          <p className={"profile-major"}>Computer Science</p>
+          <img alt="" className={"profile-headshot"} src={caroline} />
+          <h3 className={"profile-name"}>Caroline Winakur</h3>
+          <p className={"profile-major"}>ECE & Physics</p>
         </div>
       </div>
     </div>
