@@ -6,7 +6,9 @@ import instaIcon from "../graphics/insta-icon.svg";
 import twitterIcon from "../graphics/twitter-icon.svg";
 import "./Footer.css";
 
+
 function Footer() {
+
     return (
         <div style={{backgroundColor: "#0042C6"}}>
             <div className={"footer"}>
@@ -19,35 +21,91 @@ function Footer() {
                         <a href={"https://twitter.com/hackduke/"}><img className={"twitter-icon"} src={twitterIcon} alt={"twitter-icon"} /></a>
                     </div>
                 </div>
-                <div className={"links-section"}>
-                    <div>
-                        <h3>About</h3>
-                        <Link to="/about#main"><p>Mission</p></Link>
-                        <Link to="/about#our-story"><p>Our Story</p></Link>
-                    </div>
-                    <div>
-                        <h3>Humans</h3>
-                        <Link to="/humans#directors"><p>Directors</p></Link>
-                        <Link to="/humans#tech"><p>Tech</p></Link>
-                        <Link to="/humans#design"><p>Design</p></Link>
-                        <Link to="/humans#logistics"><p>Logistics</p></Link>
-                        <Link to="/humans#outreach"><p>Outreach</p></Link>
-                        <Link to="/humans#sponsorship"><p>Sponsorship</p></Link>
-                    </div>
-                    <div>
-                        <h3>Events</h3>
-                        <Link to="/events#codeforgood"><p>Code For Good</p></Link>
-                        <Link to="/events#ideate"><p>Ideate</p></Link>
-                        <Link to="/events#sponsor-us"><p>Sponsor Us</p></Link>
-                    </div>
-                    <div>
-                        <h3>Join</h3>
-                        <Link to="/join#process"><p>Process</p></Link>
-                    </div>
-                </div>
+                {footerLinks()}
             </div>
         </div>
     )
+}
+
+
+function footerLinks(){
+    const links = [
+        {
+            header: "About",
+            links: [{
+                text: "Main",
+                link: "/about#main"
+            },
+            {
+                text: "Our Story",
+                link: "/about#our-story"
+            }]
+        },        
+        {
+            header: "Humans",
+            links: [{
+                text: "Directors",
+                link: "/humans#directors"
+            },
+            {
+                text: "Tech",
+                link: "/humans#tech"
+            },
+            {
+                text: "Design",
+                link: "/humans#design"
+            },
+            {
+                text: "Logistics",
+                link: "/humans#logistics"
+            },
+            {
+                text: "Outreach",
+                link: "/humans#outreach"
+            },
+            {
+                text: "Sponsorship",
+                link: "/humans#sponsorship"
+            }]        
+        },        
+        {
+            header: "Events",
+            links: [{
+                text: "Code For Good",
+                link: "/events#codeforgood"
+            },
+            {
+                text: "Ideate",
+                link: "/events#ideate"
+            },
+            {
+                text: "Sponsor Us",
+                link: "/events#sponsor-us"
+            }]
+        },
+        {     
+            header: "Join",
+            links: [{
+                text: "Process",
+                link: "/join#process"
+            }]
+        }];
+
+    return (
+        <div className={"links-section"}>
+        {links.map((e)=>{
+                return (
+                <div className="links-block">
+                    <h3 className="links-header">{e.header}</h3>
+                    {e.links.map((eachLink)=>{
+                        return (
+                            <Link to={eachLink.link}><p className="links-text">{eachLink.text}</p></Link>
+                    );})}
+
+                </div>
+            );})}
+        </div>
+    );
 }
 
 export default Footer;
