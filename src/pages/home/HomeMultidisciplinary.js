@@ -12,7 +12,7 @@ function HomeMultidisciplinary() {
     return (
     <div className={"home-multi"}>
         <div className={"tech-org-text"}>
-            <p>We are a tech organization that brings together a multidisciplinary community at Duke to further social good. Sound interesting?</p>
+            <p className="text--center">We are a tech organization that brings together a multidisciplinary community at Duke to further social good. Sound interesting?</p>
             <Link to="/about#main">
                     <span className={"read-our-story-button"} style={{color: "white"}}>
                         Read our story&nbsp;

@@ -17,3 +17,9 @@
     margin: auto;
     max-width: 800px;
 }
+
+@media (max-width: 1440px){
+    .join-the-team-text {
+        padding: 24px;
+    }
+}
