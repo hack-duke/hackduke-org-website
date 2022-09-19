@@ -8,19 +8,34 @@
     background-size: 100px;
     background-position-x: 1000px;
     background-position-y: 80px;
+    justify-content: space-around;
+}
+
+@media (max-width: 1440px) {
+    .what-we-do {
+        height: 500px;
+    }
 }
 
 @media (max-width: 700px) {
     .what-we-do {
         flex-direction: column;
-        margin-top: 50px;
+        height: auto;
     }
 }
 
 .what-we-do .what-we-do-text {
     max-width: 500px;
-    margin: auto 100px;
+    margin: auto 50px;
     float: left;
+}
+
+@media (max-width: 700px) {
+
+    .what-we-do .what-we-do-text {
+        margin: auto 24px;
+        max-width: none;
+    }
 }
 
 .what-we-do .speakers-button {
@@ -48,6 +63,16 @@
     float: right;
     margin: auto;
     position: relative;
+}
+
+@media (max-width: 1440px) {
+    .what-we-do .what-we-do-photo {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        margin: auto 24px;
+        align-self: center;
+    }
 }
 
 @media (max-width: 700px) {
@@ -78,6 +103,12 @@
     color: #0042C6;
 }
 
+@media (max-width: 700px){
+    .what-we-do .what-we-do-header {
+        margin-top: 0px;
+    }
+}
+
 .what-we-do .what-we-do-image-top {
     position: absolute;
     width: 312px;
@@ -85,6 +116,13 @@
     left: 0px;
     border-radius: 8px;
 }
+
+@media (max-width: 1440px) {
+    .what-we-do .what-we-do-image-top{
+        position: unset;
+    }
+}
+
 
 @media (max-width: 700px) {
     .what-we-do .what-we-do-image-top {
@@ -101,6 +139,13 @@
     left: 75px;
     top: 220px;
     border-radius: 8px;
+}
+
+@media (max-width: 1440px) {
+    .what-we-do .what-we-do-image-bottom {
+        position: unset;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 700px) {
