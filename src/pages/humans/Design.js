@@ -1,14 +1,12 @@
 import React from "react";
-
-import anna from "../../graphics/team-photos/anna.jpg";
 import ashley from "../../graphics/team-photos/ashley.jpg";
 import may from "../../graphics/team-photos/may.jpeg";
 import caroline from "../../graphics/team-photos/caroline.jpeg";
-import janis from "../../graphics/team-photos/janis.jpg";
 import emily from "../../graphics/team-photos/emily.jpeg";
-import saranyaa from "../../graphics/team-photos/saranyaa.jpeg";
 import grace from "../../graphics/team-photos/grace.jpeg";
-import lily from "../../graphics/team-photos/lily.jpg";
+import arelySun from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/arelySun.JPG";
+import yashaDoddabele from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/yashaDoddabele.jpg";
+
 
 function Design() {
   return (
@@ -44,6 +42,16 @@ function Design() {
           <img alt="" className={"profile-headshot"} src={caroline} />
           <h3 className={"profile-name"}>Caroline Winakur</h3>
           <p className={"profile-major"}>ECE & Physics</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={arelySun} />
+          <h3 className={"profile-name"}>Arely Sun</h3>
+          <p className={"profile-major"}>Computer Science</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={yashaDoddabele} />
+          <h3 className={"profile-name"}>Yasha Doddabele</h3>
+          <p className={"profile-major"}>Computational Media</p>
         </div>
       </div>
     </div>

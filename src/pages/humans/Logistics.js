@@ -3,12 +3,9 @@ import React from "react";
 import james from "../../graphics/team-photos/james_xu.jpg";
 import alan from "../../graphics/team-photos/alan.jpeg";
 import johnny from "../../graphics/team-photos/johnny.jpeg";
-import john from "../../graphics/team-photos/john.jpg";
-import nancy from "../../graphics/team-photos/nancy.png";
-import evan from "../../graphics/team-photos/evan.jpg";
-import kegan from "../../graphics/team-photos/kegan.jpeg";
-import esha from "../../graphics/team-photos/esha_kapoor.jpg";
-import adam from "../../graphics/team-photos/adam_ebrahim.jpg";
+import evanK from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/evanK.JPG";
+import cristinaSniffen from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/cristinaSniffen.jpeg";
+
 
 function Logistics() {
   return (
@@ -33,6 +30,16 @@ function Logistics() {
           <img alt="" className={"profile-headshot"} src={johnny} />
           <h3 className={"profile-name"}>Johnny Pesavento</h3>
           <p className={"profile-major"}>Computer Science</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={cristinaSniffen} />
+          <h3 className={"profile-name"}>Cristina Sniffen</h3>
+          <p className={"profile-major"}>Computer Science, Minors: Statistics, Italian</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={evanK} />
+          <h3 className={"profile-name"}>Evan Kenyan</h3>
+          <p className={"profile-major"}>Electrical & Computer Engineering and Computer Science</p>
         </div>
       </div>
     </div>
