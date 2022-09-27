@@ -1,15 +1,15 @@
 import React from "react";
 
-import jacob from "../../graphics/team-photos/jacob.jpeg";
-import ruohan from "../../graphics/team-photos/ruohan.jpg";
-import khushmeet from "../../graphics/team-photos/khushmeet.jpg";
-import tony from "../../graphics/team-photos/tony.jpg";
 import kevin from "../../graphics/team-photos/kevin.png";
 import chika from "../../graphics/team-photos/chika.jpg";
 import evan_glas from "../../graphics/team-photos/evan_glas.jpg";
 import graham from "../../graphics/team-photos/graham.jpg";
-import benny from "../../graphics/team-photos/benny.jpg";
-import nishant from "../../graphics/team-photos/nishant.jpg";
+import yihongs from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/yihongs.jpg";
+import derekYuan from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/derekYuan.png";
+import alyssaGorbaneva from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/alyssaGorbaneva.jpg";
+import ameliaLane from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/ameliaLane.jpeg";
+import thomasJoblonski from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/thomasJablonski.JPG";
+import evanK from "/Users/amelialane/Coding/HackDuke/hackduke-org-website/src/graphics/team-photos/evanK.JPG";
 
 function Tech() {
   return (
@@ -42,9 +42,29 @@ function Tech() {
           <p className={"profile-major"}>Computer Science</p>
         </div>
         <div className={"profile-container"}>
-          <img alt="" className={"profile-headshot"} src={tony} />
-          <h3 className={"profile-name"}>Tony Wu</h3>
+          <img alt="" className={"profile-headshot"} src={yihongs} />
+          <h3 className={"profile-name"}>Yihong Song</h3>
           <p className={"profile-major"}>Computer Science & Math</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={derekYuan} />
+          <h3 className={"profile-name"}>Derek Yuan</h3>
+          <p className={"profile-major"}>Electrical & Computer Engineering and Computer Science</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={alyssaGorbaneva} />
+          <h3 className={"profile-name"}>Alyssa Gorbaneva</h3>
+          <p className={"profile-major"}>Computer Science</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={ameliaLane} />
+          <h3 className={"profile-name"}>Amelia Lane</h3>
+          <p className={"profile-major"}>Computer Science</p>
+        </div>
+        <div className={"profile-container"}>
+          <img alt="" className={"profile-headshot"} src={thomasJoblonski} />
+          <h3 className={"profile-name"}>Thomas Joblonski</h3>
+          <p className={"profile-major"}>Computer Science and Electrical & Computer Engineering</p>
         </div>
       </div>
     </div>
