@@ -44,20 +44,15 @@ const Timer = () => {
 
     return (
         <div className="timer">
-            Code for Good 2022 - October 22-23
+            Code for Good 2023
+            {/* - October 22-23 */}
             <br />
-            {timerComponents.length ? (
+            {/* {timerComponents.length ? (
                 timerComponents
             ) : (
                 <span>0 days 0 hours 0 minutes 0 seconds</span>
-            )}
-            <div
-                onClick={() =>
-                    window.open("https://2022.hackduke.org/", "_blank")
-                }
-                className="join">
-                Apply Here!
-            </div>
+            )} */}
+            <div className="join">Coming Soon!</div>
         </div>
     );
 };
