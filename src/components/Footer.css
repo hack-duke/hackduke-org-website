@@ -1,5 +1,10 @@
+.outerFooter {
+    background-color: #0042C6;
+}
+
 .footer {
     background-color: #0042C6;
+    /* background-color:red; */
     display: flex;
     max-width: 1500px;
     font-family: "Source Sans Pro";
@@ -110,4 +115,15 @@
         align-self: center;
         margin: 0 0 20px 0;
     }
+}
+
+#acknolwedgements {
+    display: flex;
+    font-size: 15px;
+    font-family: "Source Sans Pro";
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    justify-content: center;
 }

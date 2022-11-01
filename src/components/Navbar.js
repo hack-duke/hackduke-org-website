@@ -46,13 +46,13 @@ function Navbar({ color }) {
             Join Us
           </NavLink>
           <input
-            class="navbar-btn"
+            className={"navbar-btn"}
             type="checkbox"
             id="navbar-btn"
             onChange={checkBoxChange}
           />
-          <label class="navbar-icon" for="navbar-btn">
-            <span class="navicon"></span>
+          <label className={"navbar-icon"} htmlFor={"navbar-btn"}>
+            <span className={"navicon"}></span>
           </label>
         </div>
       </nav>

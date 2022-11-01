@@ -10,7 +10,7 @@ import "./Footer.css";
 function Footer() {
 
     return (
-        <div style={{backgroundColor: "#0042C6"}}>
+        <div className={"outerFooter"}>
             <div className={"footer"}>
                 <div className={"logos-section"}>
                     <img className={"mini-hd-logo"} src={miniHdLogo} alt={"mini-hd-logo"} />
@@ -23,6 +23,7 @@ function Footer() {
                 </div>
                 {footerLinks()}
             </div>
+            <div id={"acknolwedgements"}>We would like to acknolwedge Maggie Wang '22 for the design of this website.</div>
         </div>
     )
 }
